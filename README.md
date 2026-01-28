@@ -50,11 +50,12 @@ paper/
 This repo includes the core **tool-memory implementation used by ExpG (within `reme_ai/`)** and multiple experiment suites (`experiment/`):
 
 - **`reme_ai/`** – Tool memory and experience-pool implementation for ExpG
-  - The code is organized around the three stages defined in the paper:
-    - **Experience Acquisition**: extract structured experience from real tool-use trajectories, including quality, context, and argument patterns;  
-    - **Experience Distillation**: filter, cluster, and summarize experiences into guidance snippets that cover both common patterns and rare failure modes;  
-    - **Experience Reuse**: retrieve and inject appropriate guidance into future tasks to steer tool selection, argument generation, and result interpretation.  
-  - These stages are realized by tool-memory–related components in `summary/`, `retrieve/`, `vector_store/`, and other supporting modules.  
+  - The implementation follows the three-stage pipeline defined in the paper (acquisition / distillation / reuse) and is reflected in the following submodules:
+    - `summary/`: focuses on **experience acquisition and distillation**, extracting, filtering, clustering, and summarizing past tool calls into reusable experience units and guidance snippets;  
+    - `retrieve/`: focuses on **experience reuse**, retrieving appropriate guidance conditioned on the current tool-use context for downstream agents;  
+    - `vector_store/`: shared backend for storing and indexing experience vectors across all three stages;  
+    - `agent/`: injects tool-memory guidance into the agent’s tool-calling pipeline;  
+    - `service/` and `config/`: service wrappers and default configurations used by the experiments.  
 
 - **`experiment/MetaTool/`** – ExpG experiments on the MetaTool benchmark  
   - `src/`: task definitions, data processing, experience generation and usage  
