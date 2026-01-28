@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "reme_ai"
+version = "0.1.10.8"
+description = "Remember me"
+authors = [
+    { name = "jinli.yl", email = "jinli.yl@alibaba-inc.com" },
+    { name = "dengjiaji.djj", email = "dengjiaji.djj@alibaba-inc.com" },
+    { name = "caozouying.czy", email = "caozouying.czy@alibaba-inc.com" },
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+requires-python = ">=3.12"
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+
+keywords = ["llm", "memory", "experience", "memoryscope", "ai", "mcp", "http"]
+
+dependencies = [
+    "flowllm[reme]>=0.1.11.6",
+]
+
+[project.optional-dependencies]
+dev = ["jupyter-book", "ghp-import", "myst-nb", "sphinxcontrib-bibtex", "furo", "sphinxcontrib-mermaid"]
+
+all = ["reme_ai[dev]"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["reme_ai*"]
+exclude = ["memoryscope*", "test*", "cookbook*", "doc*", "library*", "dist*"]
+
+[tool.setuptools.package-data]
+reme_ai = [
+    "**/*.yaml",
+    "**/*.py",
+    "**/*.json",
+]
+
+[project.scripts]
+reme = "reme_ai.app:main"
+
+# python -m build && twine upload dist/*
