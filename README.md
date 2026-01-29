@@ -32,6 +32,47 @@ Core ideas (see `paper/example_paper.tex` for full details):
 - Demonstrate consistent gains on MetaTool, API-Bank, and BFCL-V3 benchmarks in both tool behavior and final task metrics;  
 - Observe a clear **non-parametric scaling effect**: small models with ExpG can outperform larger, memoryless baselines.
 
+---
+
+## External Benchmarks & Datasets
+
+This repository **reuses public benchmarks and datasets released by prior work**.  
+If you build on our code to run these benchmarks, please also acknowledge and cite the original datasets/papers:
+
+- **API-Bank** (used in `experiment/api-bank/`):
+  - Li et al., *API-Bank: A Comprehensive Benchmark for Tool-Augmented LLMs*, EMNLP 2023.
+
+- **Berkeley Function Calling Leaderboard (BFCL)** (used in `experiment/gorilla/berkeley-function-call-leaderboard/`):
+  - Patil et al., *The Berkeley Function Calling Leaderboard (BFCL): From Tool Use to Agentic Evaluation of Large Language Models*, ICML 2025.
+
+- **MetaTool Benchmark** (used in `experiment/MetaTool/`):
+  - Huang et al., *MetaTool Benchmark for Large Language Models: Deciding Whether to Use Tools and Which to Use*, ICLR 2024.
+
+For convenience, a BibTeX-style citation bundle is provided below:
+
+```bibtex
+@inproceedings{apibank,
+  title     = {API-Bank: A Comprehensive Benchmark for Tool-Augmented LLMs},
+  author    = {Minghao Li and Feifan Song and Yu Bowen and Haiyang Yu and Zhoujun Li and Fei Huang and Yongbin Li},
+  booktitle = {Conference on Empirical Methods in Natural Language Processing},
+  year      = {2023},
+}
+
+@inproceedings{patilberkeley,
+  title     = {The Berkeley Function Calling Leaderboard (BFCL): From Tool Use to Agentic Evaluation of Large Language Models},
+  author    = {Patil, Shishir G and Mao, Huanzhi and Yan, Fanjia and Ji, Charlie Cheng-Jie and Suresh, Vishnu and Stoica, Ion and Gonzalez, Joseph E},
+  booktitle = {Forty-second International Conference on Machine Learning (ICML)},
+  year      = {2025},
+}
+
+@inproceedings{metatool,
+  title     = {MetaTool Benchmark for Large Language Models: Deciding Whether to Use Tools and Which to Use},
+  author    = {Yue Huang and Jiawen Shi and Yuan Li and Chenrui Fan and Siyuan Wu and Qihui Zhang and Yixin Liu and Pan Zhou and Yao Wan and Neil Zhenqiang Gong and Lichao Sun},
+  booktitle = {The Twelfth International Conference on Learning Representations (ICLR)},
+  year      = {2024},
+}
+```
+
 
 All LaTeX sources and figures (including the main overview figure above) are in:
 
