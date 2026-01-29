@@ -1,6 +1,6 @@
 ## ExpG: Towards Robust Tool Use in LLM Agents via Experience-Driven Adaptive Guidance
 
-**Language**: English (default) · [中文 README](./README_zh.md)
+**Language**: English (default) / [中文](./README_zh.md)
 
 <p align="center">
   <img src="paper/latex/figures/overview.pdf" alt="ExpG Overview" width="85%">
