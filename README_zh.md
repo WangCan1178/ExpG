@@ -3,7 +3,7 @@
 **语言**：中文 / [English](./README.md)
 
 <p align="center">
-  <img src="paper/latex/figures/gitcha.png" alt="ExpG 挑战" width="60%">
+  <img src="paper/latex/figures/gitcha.png" alt="ExpG 挑战" width="85%">
 </p>
 
 ### 项目简介
@@ -32,11 +32,6 @@
 - 在 MetaTool、API-Bank、BFCL-V3 等基准上系统验证，展示了在工具选择、调用质量和最终任务得分上的显著提升；
 - 观测到明显的 **“非参数化 scaling 效应”**：在配备 ExpG 经验指导后，小模型能够在多项指标上超越更大的无经验大模型。
 
-
-
-<p align="center">
-  <img src="paper/latex/figures/gitfig.png" alt="ExpG 总体框架" width="85%">
-</p>
 
 你可以在 `paper/` 目录中找到完整 LaTeX 源文件及论文图表，例如总体框架图：
 

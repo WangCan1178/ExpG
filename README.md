@@ -3,9 +3,8 @@
 **Language**: English (default) / [中文](./README_zh.md)
 
 <p align="center">
-  <img src="paper/latex/figures/gitcha.png" alt="ExpG 挑战" width="60%">
+  <img src="paper/latex/figures/gitcha.png" alt="ExpG 挑战" width="85%">
 </p>
-
 
 
 This repository contains the official implementation and experiment code for the paper  
@@ -32,13 +31,6 @@ Core ideas (see `paper/example_paper.tex` for full details):
 - Structure the lifecycle into **Experience Acquisition → Experience Distillation → Experience Reuse**;  
 - Demonstrate consistent gains on MetaTool, API-Bank, and BFCL-V3 benchmarks in both tool behavior and final task metrics;  
 - Observe a clear **non-parametric scaling effect**: small models with ExpG can outperform larger, memoryless baselines.
-
-
-<p align="center">
-  <img src="paper/latex/figures/gitpic.png" alt="ExpG 总体框架" width="85%">
-</p>
-
-
 
 
 All LaTeX sources and figures (including the main overview figure above) are in:
