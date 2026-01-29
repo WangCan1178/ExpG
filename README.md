@@ -23,7 +23,7 @@ Our method is **built on top of the underlying memory framework provided by [Age
 
 - **Title**: *ExpG: Towards Robust Tool Use in LLM Agents via Experience-Driven Adaptive Guidance*  
 - **Abbreviation**: ExpG  
-- **Keywords**: Tool Use, Agent Memory, Experience Pool, Robustness, LLM Agents  
+- **Keywords**: Tool-augmented LLMs, LLM agents, Experience-driven learning, Tool memory, Robustness 
 
 Core ideas (see `paper/example_paper.tex` for full details):
 

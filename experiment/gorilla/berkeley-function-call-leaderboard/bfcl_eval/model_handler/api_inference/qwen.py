@@ -409,7 +409,7 @@ class QwenAPIHandler(OpenAICompletionsHandler):
         # 调试：检查是否有 functions 包含 memory 内容
         method = getattr(self, 'method', None)
         if method in ("mem", "m0"):
-            memory_count = sum(1 for fun in functions if "Besides, here is the guideline to use the function" in fun.get("description", "") or "Besides, here is a temporary guide" in fun.get("description", ""))
+            memory_count = sum(1 for fun in functions if "Besides, this is optional guidance on how to better use the tool" in fun.get("description", ""))
             if memory_count > 0:
                 tqdm.write(f"🔍 [调试] _pre_query_processing_prompting: 检测到 {memory_count}/{len(functions)} 个函数包含 memory 内容")
 
@@ -476,7 +476,7 @@ class QwenAPIHandler(OpenAICompletionsHandler):
                             fun_desc = fun.get("description", "")
                             
                             # 检查是否包含总结内容（通过检查是否包含特定的标识字符串）
-                            has_memory = "Besides, here is the guideline to use the function" in fun_desc or "Besides, here is a temporary guide" in fun_desc
+                            has_memory = "Besides, this is optional guidance on how to better use the tool" in fun_desc
                             memory_indicator = " ✅ [包含Memory]" if has_memory else " ❌ [无Memory]"
                             
                             # 如果描述太长，截断

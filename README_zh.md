@@ -23,7 +23,7 @@
 
 - **标题**：*ExpG: Towards Robust Tool Use in LLM Agents via Experience-Driven Adaptive Guidance*  
 - **简称**：ExpG  
-- **关键词**：Tool Use, Agent Memory, Experience Pool, Robustness, LLM Agents  
+- **关键词**：Tool-augmented LLMs, LLM agents, Experience-driven learning, Tool memory, Robustness
 
 论文中核心思想（见 `paper/example_paper.tex`）概括如下：
 
