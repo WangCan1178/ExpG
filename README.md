@@ -2,10 +2,10 @@
 
 **Language**: English (default) / [中文](./README_zh.md)
 
-
 <p align="center">
-  <img src="[paper/latex/figures/gitcha.png](paper/latex/figures/gitcha.png)" alt="ExpG Background" width="60%">
+  <img src="paper/latex/figures/gitcha.png" alt="ExpG 挑战" width="60%">
 </p>
+
 
 
 This repository contains the official implementation and experiment code for the paper  
@@ -35,8 +35,10 @@ Core ideas (see `paper/example_paper.tex` for full details):
 
 
 <p align="center">
-  <img src="[paper/latex/figures/gitpic.png](paper/latex/figures/gitpic.png)" alt="ExpG Overview" width="85%">
+  <img src="paper/latex/figures/gitpic.png" alt="ExpG 总体框架" width="85%">
 </p>
+
+
 
 
 All LaTeX sources and figures (including the main overview figure above) are in:
