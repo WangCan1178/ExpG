@@ -737,7 +737,7 @@ class QwenAgentNoThinkHandler(QwenAgentThinkHandler):
                 }
             },
             "thought_in_content": False,
-            'temperature': 0.7,
+            'temperature': 0.5,
             'top_p': 0.8,
             'top_k': 20,
             'repetition_penalty': 1.0,
