@@ -136,6 +136,7 @@ pip install -r requirements.txt
 
 ### 引用与许可证
 
-引用方式与英文版相同，详见 `README.md` 中 “Citation” 一节。  
-本项目在 **Apache License 2.0** 协议下发布，详细内容见仓库中的 `LICENSE` 文件。
+在实验部分，本仓库复用了多个由他人公开发布的基准与数据集（如 MetaTool、API-Bank、BFCL-V3 等），并基于其官方/开源实现进行二次实验开发。相应的数据与代码版权均归原作者所有，如你在自己的工作中使用到这些基准或通过本仓库间接使用这些数据，请一并引用原始基准论文（英文版 README 中给出了示例 BibTeX）。
 
+引用方式与英文版相同，详见 `README.md` 中 “External Benchmarks & Datasets” 和 “Citation” 两个小节。  
+本项目在 **Apache License 2.0** 协议下发布，详细内容见仓库中的 `LICENSE` 文件。
