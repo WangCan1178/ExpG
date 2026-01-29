@@ -3,7 +3,7 @@
 **Language**: English (default) / [中文](./README_zh.md)
 
 <p align="center">
-  <img src="[paper/latex/figures/overview.pdf](paper/latex/figures/overview.pdf)" alt="ExpG Overview" width="85%">
+  <img src="[paper/latex/figures/gitpic.png](paper/latex/figures/gitpic.png)" alt="ExpG Overview" width="85%">
 </p>
 
 This repository contains the official implementation and experiment code for the paper  

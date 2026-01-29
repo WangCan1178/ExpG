@@ -1,9 +1,9 @@
 ## ExpG：通过经验驱动自适应指导实现鲁棒工具使用的语言模型代理
 
-**语言**：中文 · [English README](./README.md)
+**语言**：中文 / [English](./README.md)
 
 <p align="center">
-  <img src="paper/latex/figures/overview.pdf" alt="ExpG 总体框架" width="85%">
+  <img src="paper/latex/figures/gitfig.png" alt="ExpG 总体框架" width="85%">
 </p>
 
 ### 项目简介
