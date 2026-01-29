@@ -1,0 +1,51 @@
+{
+  "total_items": 4437,
+  "eligible_items": 3623,
+  "excluded_items": 814,
+  "singleton_tools_count": 1002,
+  "fold1": {
+    "test_items": 568,
+    "train_items": 535,
+    "test_unique_tools": 653,
+    "train_unique_tools": 647
+  },
+  "fold2": {
+    "test_items": 535,
+    "train_items": 568,
+    "test_unique_tools": 647,
+    "train_unique_tools": 653
+  },
+  "tools_overlap_count": 646,
+  "tools_overlap_examples": [
+    "Alarm_1_AddAlarm",
+    "Alarm_1_GetAlarms",
+    "Buses_3_BuyBusTicket",
+    "Buses_3_FindBus",
+    "CalcProduct",
+    "ChaDri.change_drink",
+    "ChaFod",
+    "ControlAppliance.execute",
+    "CustomDashboardsApi.get_shareable_api_tokens",
+    "EventQuery",
+    "EventSettingsApi.create_website_alert_config",
+    "EventSettingsApi.get_built_in_event_specification",
+    "EventSettingsApi.get_built_in_event_specifications",
+    "EventSettingsApi.get_custom_event_specifications",
+    "EventSettingsApi.get_event_specification_infos",
+    "EventSettingsApi.get_event_specification_infos_by_ids",
+    "EventSettingsApi.get_system_rules",
+    "Events_3_BuyEventTickets",
+    "Events_3_FindEvents",
+    "Flights_4_SearchOnewayFlight",
+    "Flights_4_SearchRoundtripFlights",
+    "GET_COMPLAINT_STATE",
+    "GET_PARCEL_STATE",
+    "GetProductDetailsV1",
+    "GorillaFileSystem.cat",
+    "GorillaFileSystem.cd",
+    "GorillaFileSystem.cp",
+    "GorillaFileSystem.diff",
+    "GorillaFileSystem.echo",
+    "GorillaFileSystem.find"
+  ]
+}

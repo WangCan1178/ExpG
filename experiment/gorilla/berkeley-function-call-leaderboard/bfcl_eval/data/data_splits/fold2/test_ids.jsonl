@@ -1,0 +1,535 @@
+{"id": "irrelevance_119", "file": "BFCL_v4_irrelevance.json", "functions": ["sentiment_analysis"]}
+{"id": "irrelevance_123", "file": "BFCL_v4_irrelevance.json", "functions": ["calculate_bmi"]}
+{"id": "irrelevance_132", "file": "BFCL_v4_irrelevance.json", "functions": ["historical_event.get_date"]}
+{"id": "irrelevance_165", "file": "BFCL_v4_irrelevance.json", "functions": ["get_instrument_info"]}
+{"id": "irrelevance_20", "file": "BFCL_v4_irrelevance.json", "functions": ["currency_converter"]}
+{"id": "irrelevance_215", "file": "BFCL_v4_irrelevance.json", "functions": ["calculate_tip"]}
+{"id": "irrelevance_216", "file": "BFCL_v4_irrelevance.json", "functions": ["convert_currency"]}
+{"id": "irrelevance_228", "file": "BFCL_v4_irrelevance.json", "functions": ["get_local_time"]}
+{"id": "irrelevance_23", "file": "BFCL_v4_irrelevance.json", "functions": ["calculate_magnetic_field"]}
+{"id": "irrelevance_233", "file": "BFCL_v4_irrelevance.json", "functions": ["weather_in_location"]}
+{"id": "irrelevance_26", "file": "BFCL_v4_irrelevance.json", "functions": ["thermodynamics.calc_gas_pressure"]}
+{"id": "irrelevance_27", "file": "BFCL_v4_irrelevance.json", "functions": ["calculate_heat"]}
+{"id": "irrelevance_7", "file": "BFCL_v4_irrelevance.json", "functions": ["draw_circle"]}
+{"id": "irrelevance_78", "file": "BFCL_v4_irrelevance.json", "functions": ["calculate_Bond_Price"]}
+{"id": "irrelevance_83", "file": "BFCL_v4_irrelevance.json", "functions": ["calculate_mortgage_payment"]}
+{"id": "irrelevance_84", "file": "BFCL_v4_irrelevance.json", "functions": ["get_stock_data"]}
+{"id": "live_irrelevance_106-5-0", "file": "BFCL_v4_live_irrelevance.json", "functions": ["ChaDri.change_drink", "ChaFod"]}
+{"id": "live_irrelevance_128-11-3", "file": "BFCL_v4_live_irrelevance.json", "functions": ["create_workspace", "generate_password", "get_current_weather", "start_oncall"]}
+{"id": "live_irrelevance_133-12-0", "file": "BFCL_v4_live_irrelevance.json", "functions": ["generate_password", "get_current_weather", "start_oncall"]}
+{"id": "live_irrelevance_135-13-1", "file": "BFCL_v4_live_irrelevance.json", "functions": ["ControlAppliance.execute", "HNA_NEWS.search", "HNA_WQA.search", "OpenWeatherMap.get_current_weather", "cookbook.search_recipe"]}
+{"id": "live_irrelevance_137-13-3", "file": "BFCL_v4_live_irrelevance.json", "functions": ["ControlAppliance.execute", "HNA_NEWS.search", "HNA_WQA.search", "OpenWeatherMap.get_current_weather", "cookbook.search_recipe"]}
+{"id": "live_irrelevance_154-17-1", "file": "BFCL_v4_live_irrelevance.json", "functions": ["get_product_details", "search_products"]}
+{"id": "live_irrelevance_157-18-1", "file": "BFCL_v4_live_irrelevance.json", "functions": ["get_interviewer_list"]}
+{"id": "live_irrelevance_160-19-2", "file": "BFCL_v4_live_irrelevance.json", "functions": ["add", "multiply"]}
+{"id": "live_irrelevance_163-20-2", "file": "BFCL_v4_live_irrelevance.json", "functions": ["get_current_weather", "get_snow_report"]}
+{"id": "live_irrelevance_164-21-0", "file": "BFCL_v4_live_irrelevance.json", "functions": ["add", "celsius_to_fahrenheit", "fahrenheit_to_celsius", "multiply", "sub"]}
+{"id": "live_irrelevance_168-23-0", "file": "BFCL_v4_live_irrelevance.json", "functions": ["find_beer"]}
+{"id": "live_irrelevance_172-26-0", "file": "BFCL_v4_live_irrelevance.json", "functions": ["get_interviewer_list", "review_of_interviewer"]}
+{"id": "live_irrelevance_175-27-2", "file": "BFCL_v4_live_irrelevance.json", "functions": ["inventory_management", "order_status_check", "product_search"]}
+{"id": "live_irrelevance_178-29-1", "file": "BFCL_v4_live_irrelevance.json", "functions": ["todo"]}
+{"id": "live_irrelevance_181-31-0", "file": "BFCL_v4_live_irrelevance.json", "functions": ["get_product_details", "inventory_management", "order_status_check", "product_search"]}
+{"id": "live_irrelevance_200-32-13", "file": "BFCL_v4_live_irrelevance.json", "functions": ["user_authentication.login"]}
+{"id": "live_irrelevance_210-33-0", "file": "BFCL_v4_live_irrelevance.json", "functions": ["inventory.restock_check"]}
+{"id": "live_irrelevance_220-34-9", "file": "BFCL_v4_live_irrelevance.json", "functions": ["ProductSearch.execute"]}
+{"id": "live_irrelevance_227-35-2", "file": "BFCL_v4_live_irrelevance.json", "functions": ["check_order_status"]}
+{"id": "live_irrelevance_230-36-1", "file": "BFCL_v4_live_irrelevance.json", "functions": ["GetProductDetailsV1"]}
+{"id": "live_irrelevance_235-40-0", "file": "BFCL_v4_live_irrelevance.json", "functions": ["add_mtnards_server", "add_postgres_server", "dartfx_help", "list_servers"]}
+{"id": "live_irrelevance_245-48-0", "file": "BFCL_v4_live_irrelevance.json", "functions": ["render_ui_date_picker_widget", "render_ui_finish", "render_ui_multi_select_widget", "render_ui_single_select_widget"]}
+{"id": "live_irrelevance_250-51-0", "file": "BFCL_v4_live_irrelevance.json", "functions": ["add_mtnards_server", "add_postgres_server", "close_project", "dartfx_help", "default_function", "list_servers", "open_project"]}
+{"id": "live_irrelevance_254-53-2", "file": "BFCL_v4_live_irrelevance.json", "functions": ["add_mtnards_server", "add_postgres_server", "close_project", "connect_to_server", "dartfx_help", "default_function", "list_files", "list_servers", "open_project", "rename_server"]}
+{"id": "live_irrelevance_256-55-0", "file": "BFCL_v4_live_irrelevance.json", "functions": ["analyse_repo_contents", "create_a_docker_file", "create_kubernetes_yaml_file"]}
+{"id": "live_irrelevance_259-56-2", "file": "BFCL_v4_live_irrelevance.json", "functions": ["acl_api.AclApi.retrieve_projects", "acl_api.add_mapping", "acl_api.delete_mapping", "analysis_api.AnalysisApi.retrieve_analysis", "version_api.VersionApi.get_version"]}
+{"id": "live_irrelevance_260-56-3", "file": "BFCL_v4_live_irrelevance.json", "functions": ["acl_api.AclApi.retrieve_projects", "acl_api.add_mapping", "acl_api.delete_mapping", "analysis_api.AnalysisApi.retrieve_analysis", "version_api.VersionApi.get_version"]}
+{"id": "live_irrelevance_261-56-4", "file": "BFCL_v4_live_irrelevance.json", "functions": ["acl_api.AclApi.retrieve_projects", "acl_api.add_mapping", "acl_api.delete_mapping", "analysis_api.AnalysisApi.retrieve_analysis", "version_api.VersionApi.get_version"]}
+{"id": "live_irrelevance_265-57-0", "file": "BFCL_v4_live_irrelevance.json", "functions": ["get_headway", "get_time_headway", "get_time_to_collision"]}
+{"id": "live_irrelevance_271-57-6", "file": "BFCL_v4_live_irrelevance.json", "functions": ["get_headway", "get_time_headway", "get_time_to_collision"]}
+{"id": "live_irrelevance_276-60-1", "file": "BFCL_v4_live_irrelevance.json", "functions": ["detect_beats_and_filter"]}
+{"id": "live_irrelevance_288-70-0", "file": "BFCL_v4_live_irrelevance.json", "functions": ["get_adriel_education", "get_adriel_experiences", "get_adriel_list_projects", "get_adriel_profile", "get_detail_adriel_project"]}
+{"id": "live_irrelevance_289-71-0", "file": "BFCL_v4_live_irrelevance.json", "functions": ["get_adriel_detail_experience_and_education", "get_adriel_experiences_and_education", "get_adriel_list_projects", "get_adriel_profile", "get_adriel_tech_stack", "get_detail_adriel_project"]}
+{"id": "live_irrelevance_291-72-0", "file": "BFCL_v4_live_irrelevance.json", "functions": ["get_adriel_list_projects"]}
+{"id": "live_irrelevance_297-73-4", "file": "BFCL_v4_live_irrelevance.json", "functions": ["get_adriel_detail_experience_and_education", "get_adriel_experiences_and_education", "get_adriel_list_projects", "get_adriel_profile", "get_adriel_tech_stack", "get_detail_adriel_project"]}
+{"id": "live_irrelevance_301-75-0", "file": "BFCL_v4_live_irrelevance.json", "functions": ["search_web"]}
+{"id": "live_irrelevance_334-78-1", "file": "BFCL_v4_live_irrelevance.json", "functions": ["get_trip", "sort_array"]}
+{"id": "live_irrelevance_337-80-0", "file": "BFCL_v4_live_irrelevance.json", "functions": ["mult"]}
+{"id": "live_irrelevance_379-81-40", "file": "BFCL_v4_live_irrelevance.json", "functions": ["requests.get"]}
+{"id": "live_irrelevance_409-91-0", "file": "BFCL_v4_live_irrelevance.json", "functions": ["connectBluetooth"]}
+{"id": "live_irrelevance_416-95-0", "file": "BFCL_v4_live_irrelevance.json", "functions": ["askForSSID"]}
+{"id": "live_irrelevance_418-96-1", "file": "BFCL_v4_live_irrelevance.json", "functions": ["api_name.get_weather_forecast", "archive_documents", "generate_report", "order_processing.handle_order", "process_transaction", "user_authenticate", "user_authentication", "user_authentication.login", "user_authentication.validate", "user_registration.create_account"]}
+{"id": "live_irrelevance_425-101-2", "file": "BFCL_v4_live_irrelevance.json", "functions": ["get_response"]}
+{"id": "live_irrelevance_438-110-0", "file": "BFCL_v4_live_irrelevance.json", "functions": ["joku"]}
+{"id": "live_irrelevance_447-116-1", "file": "BFCL_v4_live_irrelevance.json", "functions": ["update_user_profile"]}
+{"id": "live_irrelevance_450-118-1", "file": "BFCL_v4_live_irrelevance.json", "functions": ["process_transactions"]}
+{"id": "live_irrelevance_463-128-0", "file": "BFCL_v4_live_irrelevance.json", "functions": ["get_country_output"]}
+{"id": "live_irrelevance_466-129-1", "file": "BFCL_v4_live_irrelevance.json", "functions": ["load_model", "process_data"]}
+{"id": "live_irrelevance_469-130-1", "file": "BFCL_v4_live_irrelevance.json", "functions": ["user_authentication.authenticate"]}
+{"id": "live_irrelevance_470-131-0", "file": "BFCL_v4_live_irrelevance.json", "functions": ["date.current_date"]}
+{"id": "live_irrelevance_473-132-1", "file": "BFCL_v4_live_irrelevance.json", "functions": ["update_inventory"]}
+{"id": "live_irrelevance_476-134-0", "file": "BFCL_v4_live_irrelevance.json", "functions": ["search_google"]}
+{"id": "live_irrelevance_479-135-1", "file": "BFCL_v4_live_irrelevance.json", "functions": ["get_weather_forecast"]}
+{"id": "live_irrelevance_482-137-0", "file": "BFCL_v4_live_irrelevance.json", "functions": ["CalcProduct", "getCurrentTime", "sum"]}
+{"id": "live_irrelevance_485-139-0", "file": "BFCL_v4_live_irrelevance.json", "functions": ["thermodynamics.calculate_boiling_point"]}
+{"id": "live_irrelevance_487-141-0", "file": "BFCL_v4_live_irrelevance.json", "functions": ["adriel_contact", "adriel_detail_experience_and_education", "adriel_experiences_and_education", "adriel_list_projects", "adriel_tech_stack", "detail_adriel_project", "help"]}
+{"id": "live_irrelevance_490-142-1", "file": "BFCL_v4_live_irrelevance.json", "functions": ["contact", "detail_experience_and_education", "detail_project", "experiences_and_education", "get_tech_stack", "help.display", "list_projects"]}
+{"id": "live_irrelevance_492-142-3", "file": "BFCL_v4_live_irrelevance.json", "functions": ["contact", "detail_experience_and_education", "detail_project", "experiences_and_education", "get_tech_stack", "help.display", "list_projects"]}
+{"id": "live_irrelevance_494-142-5", "file": "BFCL_v4_live_irrelevance.json", "functions": ["contact", "detail_experience_and_education", "detail_project", "experiences_and_education", "get_tech_stack", "help.display", "list_projects"]}
+{"id": "live_irrelevance_496-142-7", "file": "BFCL_v4_live_irrelevance.json", "functions": ["contact", "detail_experience_and_education", "detail_project", "experiences_and_education", "get_tech_stack", "help.display", "list_projects"]}
+{"id": "live_irrelevance_498-144-0", "file": "BFCL_v4_live_irrelevance.json", "functions": ["get_current_weather", "python_send_mail"]}
+{"id": "live_irrelevance_500-146-0", "file": "BFCL_v4_live_irrelevance.json", "functions": ["telemetry.flowrules.interfaceInfo.get"]}
+{"id": "live_irrelevance_519-157-0", "file": "BFCL_v4_live_irrelevance.json", "functions": ["list_events", "reschedule"]}
+{"id": "live_irrelevance_526-162-1", "file": "BFCL_v4_live_irrelevance.json", "functions": ["introduction.greet"]}
+{"id": "live_irrelevance_530-164-0", "file": "BFCL_v4_live_irrelevance.json", "functions": ["get_spouse_name"]}
+{"id": "live_irrelevance_535-167-0", "file": "BFCL_v4_live_irrelevance.json", "functions": ["get_current_weather", "get_n_day_weather_forecast"]}
+{"id": "live_irrelevance_547-169-0", "file": "BFCL_v4_live_irrelevance.json", "functions": ["generate_image_tool", "get_url_content", "search_web_tool", "tts_tool", "write_html_tool", "write_markdown_tool"]}
+{"id": "live_irrelevance_555-169-8", "file": "BFCL_v4_live_irrelevance.json", "functions": ["generate_image_tool", "get_url_content", "search_web_tool", "tts_tool", "write_html_tool", "write_markdown_tool"]}
+{"id": "live_irrelevance_556-169-9", "file": "BFCL_v4_live_irrelevance.json", "functions": ["generate_image_tool", "get_url_content", "search_web_tool", "tts_tool", "write_html_tool", "write_markdown_tool"]}
+{"id": "live_irrelevance_566-174-0", "file": "BFCL_v4_live_irrelevance.json", "functions": ["GET_COMPLAINT_STATE", "GET_PARCEL_STATE", "handover_to_agent", "submit_complaint"]}
+{"id": "live_irrelevance_574-179-3", "file": "BFCL_v4_live_irrelevance.json", "functions": ["EventQuery", "reschedule_event"]}
+{"id": "live_irrelevance_578-181-0", "file": "BFCL_v4_live_irrelevance.json", "functions": ["raptor.mpn.specs"]}
+{"id": "live_irrelevance_590-185-0", "file": "BFCL_v4_live_irrelevance.json", "functions": ["Movies_3_FindMovies", "Services_4_BookAppointment", "Services_4_FindProvider"]}
+{"id": "live_irrelevance_600-193-2", "file": "BFCL_v4_live_irrelevance.json", "functions": ["Movies_1_BuyMovieTickets", "Movies_1_FindMovies", "Movies_1_GetTimesForMovie"]}
+{"id": "live_irrelevance_608-194-1", "file": "BFCL_v4_live_irrelevance.json", "functions": ["Buses_3_BuyBusTicket", "Buses_3_FindBus", "Flights_4_SearchOnewayFlight", "Flights_4_SearchRoundtripFlights", "RentalCars_3_GetCarsAvailable", "RentalCars_3_ReserveCar"]}
+{"id": "live_irrelevance_610-194-3", "file": "BFCL_v4_live_irrelevance.json", "functions": ["Buses_3_BuyBusTicket", "Buses_3_FindBus", "Flights_4_SearchOnewayFlight", "Flights_4_SearchRoundtripFlights", "RentalCars_3_GetCarsAvailable", "RentalCars_3_ReserveCar"]}
+{"id": "live_irrelevance_616-195-4", "file": "BFCL_v4_live_irrelevance.json", "functions": ["Events_3_BuyEventTickets", "Events_3_FindEvents", "Messaging_1_ShareLocation", "Trains_1_FindTrains", "Trains_1_GetTrainTickets"]}
+{"id": "live_irrelevance_622-196-3", "file": "BFCL_v4_live_irrelevance.json", "functions": ["Flights_4_SearchOnewayFlight", "Flights_4_SearchRoundtripFlights", "Hotels_2_BookHouse", "Hotels_2_SearchHouse", "Travel_1_FindAttractions"]}
+{"id": "live_irrelevance_640-203-0", "file": "BFCL_v4_live_irrelevance.json", "functions": ["Alarm_1_AddAlarm", "Alarm_1_GetAlarms", "Homes_2_FindHomeByArea", "Homes_2_ScheduleVisit"]}
+{"id": "live_irrelevance_654-206-3", "file": "BFCL_v4_live_irrelevance.json", "functions": ["Movies_1_BuyMovieTickets", "Movies_1_FindMovies", "Movies_1_GetTimesForMovie", "Services_1_BookAppointment", "Services_1_FindProvider"]}
+{"id": "live_irrelevance_659-210-0", "file": "BFCL_v4_live_irrelevance.json", "functions": ["Alarm_1_AddAlarm", "Alarm_1_GetAlarms", "Media_3_FindMovies", "Media_3_PlayMovie", "Music_3_LookupMusic", "Music_3_PlayMedia"]}
+{"id": "live_irrelevance_665-211-5", "file": "BFCL_v4_live_irrelevance.json", "functions": ["Buses_3_BuyBusTicket", "Buses_3_FindBus", "Events_3_BuyEventTickets", "Events_3_FindEvents", "Flights_4_SearchOnewayFlight", "Flights_4_SearchRoundtripFlights", "Hotels_4_ReserveHotel", "Hotels_4_SearchHotel"]}
+{"id": "live_irrelevance_671-214-0", "file": "BFCL_v4_live_irrelevance.json", "functions": ["Services_1_BookAppointment", "Services_1_FindProvider", "Weather_1_GetWeather"]}
+{"id": "live_irrelevance_672-215-0", "file": "BFCL_v4_live_irrelevance.json", "functions": ["Homes_2_FindHomeByArea", "Homes_2_ScheduleVisit", "Messaging_1_ShareLocation", "RideSharing_2_GetRide"]}
+{"id": "live_irrelevance_674-215-2", "file": "BFCL_v4_live_irrelevance.json", "functions": ["Homes_2_FindHomeByArea", "Homes_2_ScheduleVisit", "Messaging_1_ShareLocation", "RideSharing_2_GetRide"]}
+{"id": "live_irrelevance_681-220-1", "file": "BFCL_v4_live_irrelevance.json", "functions": ["Homes_2_FindHomeByArea", "Homes_2_ScheduleVisit"]}
+{"id": "live_irrelevance_684-222-0", "file": "BFCL_v4_live_irrelevance.json", "functions": ["Music_3_LookupMusic", "Music_3_PlayMedia", "Weather_1_GetWeather"]}
+{"id": "live_irrelevance_688-223-3", "file": "BFCL_v4_live_irrelevance.json", "functions": ["Buses_3_BuyBusTicket", "Buses_3_FindBus", "Hotels_4_ReserveHotel", "Hotels_4_SearchHotel"]}
+{"id": "live_irrelevance_689-224-0", "file": "BFCL_v4_live_irrelevance.json", "functions": ["Trains_1_FindTrains", "Trains_1_GetTrainTickets"]}
+{"id": "live_irrelevance_691-225-1", "file": "BFCL_v4_live_irrelevance.json", "functions": ["Movies_1_BuyMovieTickets", "Movies_1_FindMovies", "Movies_1_GetTimesForMovie", "Restaurants_2_FindRestaurants", "Restaurants_2_ReserveRestaurant"]}
+{"id": "live_irrelevance_702-230-1", "file": "BFCL_v4_live_irrelevance.json", "functions": ["Payment_1_MakePayment", "Payment_1_RequestPayment", "Restaurants_2_FindRestaurants", "Restaurants_2_ReserveRestaurant"]}
+{"id": "live_irrelevance_719-238-0", "file": "BFCL_v4_live_irrelevance.json", "functions": ["book_flight"]}
+{"id": "live_irrelevance_723-240-1", "file": "BFCL_v4_live_irrelevance.json", "functions": ["play_spotify_song", "set_alarm", "set_countdown", "set_volume"]}
+{"id": "live_irrelevance_724-241-0", "file": "BFCL_v4_live_irrelevance.json", "functions": ["play_song", "set_volume"]}
+{"id": "live_irrelevance_733-248-0", "file": "BFCL_v4_live_irrelevance.json", "functions": ["user.mandates"]}
+{"id": "live_irrelevance_737-251-0", "file": "BFCL_v4_live_irrelevance.json", "functions": ["get_current_weather", "web_search"]}
+{"id": "live_irrelevance_743-254-3", "file": "BFCL_v4_live_irrelevance.json", "functions": ["call_uber"]}
+{"id": "live_irrelevance_745-256-0", "file": "BFCL_v4_live_irrelevance.json", "functions": ["get_service_providers", "view_service_provider_profile"]}
+{"id": "live_irrelevance_750-261-0", "file": "BFCL_v4_live_irrelevance.json", "functions": ["releases_api.ReleasesApi.get_all_releases", "releases_api.ReleasesApi.post_release", "releases_api.ReleasesApi.put_release"]}
+{"id": "live_irrelevance_752-263-0", "file": "BFCL_v4_live_irrelevance.json", "functions": ["EventSettingsApi.get_custom_event_specifications", "EventSettingsApi.get_event_specification_infos", "EventSettingsApi.get_event_specification_infos_by_ids"]}
+{"id": "live_irrelevance_762-272-1", "file": "BFCL_v4_live_irrelevance.json", "functions": ["get_customer_bookings", "get_promotions", "get_service_providers", "view_service_provider_profile"]}
+{"id": "live_irrelevance_764-274-0", "file": "BFCL_v4_live_irrelevance.json", "functions": ["__book_meeting_room", "__get_all_user_list", "__get_meeting_room_schedule", "__query_meeting_room_list"]}
+{"id": "live_irrelevance_772-281-0", "file": "BFCL_v4_live_irrelevance.json", "functions": ["get_value_chat"]}
+{"id": "live_irrelevance_776-285-0", "file": "BFCL_v4_live_irrelevance.json", "functions": ["awx_create_job_templates", "awx_list_job_templates", "awx_run_job_templates"]}
+{"id": "live_irrelevance_781-290-0", "file": "BFCL_v4_live_irrelevance.json", "functions": ["EventSettingsApi.get_built_in_event_specifications", "EventSettingsApi.get_custom_event_specifications", "EventSettingsApi.get_event_specification_infos", "EventSettingsApi.get_event_specification_infos_by_ids", "EventSettingsApi.get_system_rules"]}
+{"id": "live_irrelevance_789-298-0", "file": "BFCL_v4_live_irrelevance.json", "functions": ["EventSettingsApi.get_built_in_event_specification", "EventSettingsApi.get_built_in_event_specifications", "EventSettingsApi.get_custom_event_specifications", "EventSettingsApi.get_event_specification_infos", "EventSettingsApi.get_event_specification_infos_by_ids"]}
+{"id": "live_irrelevance_798-305-2", "file": "BFCL_v4_live_irrelevance.json", "functions": ["get_business_unit_mapping", "product_list.retrieve", "product_selector.get_products", "product_volume.get_active_branches", "sce_api.get_product_information", "sce_api.get_products"]}
+{"id": "live_irrelevance_803-305-7", "file": "BFCL_v4_live_irrelevance.json", "functions": ["get_business_unit_mapping", "product_list.retrieve", "product_selector.get_products", "product_volume.get_active_branches", "sce_api.get_product_information", "sce_api.get_products"]}
+{"id": "live_irrelevance_804-305-8", "file": "BFCL_v4_live_irrelevance.json", "functions": ["get_business_unit_mapping", "product_list.retrieve", "product_selector.get_products", "product_volume.get_active_branches", "sce_api.get_product_information", "sce_api.get_products"]}
+{"id": "live_irrelevance_811-309-1", "file": "BFCL_v4_live_irrelevance.json", "functions": ["EventSettingsApi.create_website_alert_config"]}
+{"id": "live_irrelevance_823-316-0", "file": "BFCL_v4_live_irrelevance.json", "functions": ["open_asset"]}
+{"id": "live_irrelevance_830-323-0", "file": "BFCL_v4_live_irrelevance.json", "functions": ["fetch_user_details"]}
+{"id": "live_irrelevance_835-326-0", "file": "BFCL_v4_live_irrelevance.json", "functions": ["determine_body_mass_index"]}
+{"id": "live_irrelevance_836-327-0", "file": "BFCL_v4_live_irrelevance.json", "functions": ["search_on_google"]}
+{"id": "live_irrelevance_851-341-0", "file": "BFCL_v4_live_irrelevance.json", "functions": ["weather_forecast.get_prediction"]}
+{"id": "live_irrelevance_856-345-1", "file": "BFCL_v4_live_irrelevance.json", "functions": ["weather.forecast"]}
+{"id": "live_irrelevance_864-351-0", "file": "BFCL_v4_live_irrelevance.json", "functions": ["SimpleQuestion.ask"]}
+{"id": "live_irrelevance_867-353-0", "file": "BFCL_v4_live_irrelevance.json", "functions": ["user_authentication.verify"]}
+{"id": "live_irrelevance_868-354-0", "file": "BFCL_v4_live_irrelevance.json", "functions": ["get_ac_state", "set_ac_state"]}
+{"id": "live_irrelevance_874-359-0", "file": "BFCL_v4_live_irrelevance.json", "functions": ["get_current_weather", "weather_forecast.get"]}
+{"id": "live_irrelevance_879-364-0", "file": "BFCL_v4_live_irrelevance.json", "functions": ["Restaurants_2_FindRestaurants", "Restaurants_2_ReserveRestaurant"]}
+{"id": "live_irrelevance_880-365-0", "file": "BFCL_v4_live_irrelevance.json", "functions": ["Buses_3_BuyBusTicket", "Buses_3_FindBus", "Hotels_4_ReserveHotel", "Hotels_4_SearchHotel"]}
+{"id": "live_multiple_10-4-2", "file": "BFCL_v4_live_multiple.json", "functions": ["ControlAppliance.execute"]}
+{"id": "live_multiple_1000-231-0", "file": "BFCL_v4_live_multiple.json", "functions": ["MaintenanceConfigurationApi.get_maintenance_config"]}
+{"id": "live_multiple_1003-232-2", "file": "BFCL_v4_live_multiple.json", "functions": ["api_token_api.APITokenApi.get_api_tokens"]}
+{"id": "live_multiple_1004-233-0", "file": "BFCL_v4_live_multiple.json", "functions": ["audit_log_api.AuditLogApi.get_access_logs"]}
+{"id": "live_multiple_1012-241-0", "file": "BFCL_v4_live_multiple.json", "functions": ["get_synthetic_locations"]}
+{"id": "live_multiple_1019-248-0", "file": "BFCL_v4_live_multiple.json", "functions": ["releases_api.ReleasesApi.delete_release"]}
+{"id": "live_multiple_1020-249-0", "file": "BFCL_v4_live_multiple.json", "functions": ["delete_apdex_configuration"]}
+{"id": "live_multiple_1027-255-1", "file": "BFCL_v4_live_multiple.json", "functions": ["CustomDashboardsApi.get_shareable_api_tokens"]}
+{"id": "live_multiple_1030-258-0", "file": "BFCL_v4_live_multiple.json", "functions": ["get_website_geo_mapping_rules"]}
+{"id": "live_multiple_1041-268-0", "file": "BFCL_v4_live_multiple.json", "functions": ["get_sensor_readings_history_by_interval"]}
+{"id": "live_multiple_133-50-5", "file": "BFCL_v4_live_multiple.json", "functions": ["multilingual_llm"]}
+{"id": "live_multiple_138-53-0", "file": "BFCL_v4_live_multiple.json", "functions": ["weather.get"]}
+{"id": "live_multiple_142-55-0", "file": "BFCL_v4_live_multiple.json", "functions": ["weather.get_weather_data"]}
+{"id": "live_multiple_143-55-1", "file": "BFCL_v4_live_multiple.json", "functions": ["stock_price.get"]}
+{"id": "live_multiple_144-56-0", "file": "BFCL_v4_live_multiple.json", "functions": ["get_sensor_readings_latest"]}
+{"id": "live_multiple_153-58-7", "file": "BFCL_v4_live_multiple.json", "functions": ["get_sensor_readings_history"]}
+{"id": "live_multiple_160-62-1", "file": "BFCL_v4_live_multiple.json", "functions": ["get_adriel_projects"]}
+{"id": "live_multiple_168-68-0", "file": "BFCL_v4_live_multiple.json", "functions": ["get_adriel_profile"]}
+{"id": "live_multiple_17-4-9", "file": "BFCL_v4_live_multiple.json", "functions": ["cookbook.search_recipe"]}
+{"id": "live_multiple_177-74-0", "file": "BFCL_v4_live_multiple.json", "functions": ["get_trip"]}
+{"id": "live_multiple_181-76-1", "file": "BFCL_v4_live_multiple.json", "functions": ["api_name.get_weather_forecast"]}
+{"id": "live_multiple_2-1-0", "file": "BFCL_v4_live_multiple.json", "functions": ["uber.ride"]}
+{"id": "live_multiple_232-104-1", "file": "BFCL_v4_live_multiple.json", "functions": ["get_contact_information"]}
+{"id": "live_multiple_234-106-0", "file": "BFCL_v4_live_multiple.json", "functions": ["set_integer"]}
+{"id": "live_multiple_237-106-3", "file": "BFCL_v4_live_multiple.json", "functions": ["set_point"]}
+{"id": "live_multiple_240-107-1", "file": "BFCL_v4_live_multiple.json", "functions": ["search_web_tool"]}
+{"id": "live_multiple_251-115-0", "file": "BFCL_v4_live_multiple.json", "functions": ["version_api.VersionApi.get_version"]}
+{"id": "live_multiple_256-120-0", "file": "BFCL_v4_live_multiple.json", "functions": ["vex_api.VexApi.export_project_as_cyclone_dx1"]}
+{"id": "live_multiple_259-123-0", "file": "BFCL_v4_live_multiple.json", "functions": ["project_api.ProjectApi.get_project_by_name_and_version"]}
+{"id": "live_multiple_26-6-1", "file": "BFCL_v4_live_multiple.json", "functions": ["recall_memory_search"]}
+{"id": "live_multiple_262-125-1", "file": "BFCL_v4_live_multiple.json", "functions": ["rotateImageAction"]}
+{"id": "live_multiple_298-130-7", "file": "BFCL_v4_live_multiple.json", "functions": ["Hotels_2_SearchHouse"]}
+{"id": "live_multiple_304-131-3", "file": "BFCL_v4_live_multiple.json", "functions": ["Hotels_4_SearchHotel"]}
+{"id": "live_multiple_31-10-1", "file": "BFCL_v4_live_multiple.json", "functions": ["duck_duck_go.search"]}
+{"id": "live_multiple_375-134-20", "file": "BFCL_v4_live_multiple.json", "functions": ["Movies_3_FindMovies"]}
+{"id": "live_multiple_395-138-3", "file": "BFCL_v4_live_multiple.json", "functions": ["Services_1_FindProvider"]}
+{"id": "live_multiple_41-16-0", "file": "BFCL_v4_live_multiple.json", "functions": ["get_services"]}
+{"id": "live_multiple_422-141-11", "file": "BFCL_v4_live_multiple.json", "functions": ["Movies_1_FindMovies"]}
+{"id": "live_multiple_435-142-1", "file": "BFCL_v4_live_multiple.json", "functions": ["RentalCars_3_GetCarsAvailable"]}
+{"id": "live_multiple_45-18-0", "file": "BFCL_v4_live_multiple.json", "functions": ["product_search"]}
+{"id": "live_multiple_468-145-19", "file": "BFCL_v4_live_multiple.json", "functions": ["Travel_1_FindAttractions"]}
+{"id": "live_multiple_52-21-1", "file": "BFCL_v4_live_multiple.json", "functions": ["inventory_management"]}
+{"id": "live_multiple_641-161-9", "file": "BFCL_v4_live_multiple.json", "functions": ["Music_3_LookupMusic"]}
+{"id": "live_multiple_749-169-4", "file": "BFCL_v4_live_multiple.json", "functions": ["Media_3_FindMovies"]}
+{"id": "live_multiple_784-173-6", "file": "BFCL_v4_live_multiple.json", "functions": ["Services_4_FindProvider"]}
+{"id": "live_multiple_823-177-6", "file": "BFCL_v4_live_multiple.json", "functions": ["Events_3_BuyEventTickets"]}
+{"id": "live_multiple_834-178-9", "file": "BFCL_v4_live_multiple.json", "functions": ["Music_3_PlayMedia"]}
+{"id": "live_multiple_87-38-4", "file": "BFCL_v4_live_multiple.json", "functions": ["list_servers"]}
+{"id": "live_multiple_892-185-2", "file": "BFCL_v4_live_multiple.json", "functions": ["Payment_1_MakePayment"]}
+{"id": "live_multiple_947-197-0", "file": "BFCL_v4_live_multiple.json", "functions": ["set_countdown"]}
+{"id": "live_multiple_956-203-0", "file": "BFCL_v4_live_multiple.json", "functions": ["partner.mandates"]}
+{"id": "live_multiple_958-204-0", "file": "BFCL_v4_live_multiple.json", "functions": ["partner.sips"]}
+{"id": "live_multiple_96-42-0", "file": "BFCL_v4_live_multiple.json", "functions": ["list_files"]}
+{"id": "live_multiple_965-207-1", "file": "BFCL_v4_live_multiple.json", "functions": ["transfer_to_human_agent"]}
+{"id": "live_multiple_966-208-0", "file": "BFCL_v4_live_multiple.json", "functions": ["handover_to_agent"]}
+{"id": "live_multiple_988-219-0", "file": "BFCL_v4_live_multiple.json", "functions": ["EventSettingsApi.get_event_specification_infos_by_ids"]}
+{"id": "live_multiple_99-42-3", "file": "BFCL_v4_live_multiple.json", "functions": ["connect_to_server"]}
+{"id": "live_multiple_999-230-0", "file": "BFCL_v4_live_multiple.json", "functions": ["health_api.HealthApi.get_version"]}
+{"id": "live_parallel_12-8-0", "file": "BFCL_v4_live_parallel.json", "functions": ["log_food"]}
+{"id": "live_parallel_multiple_13-11-0", "file": "BFCL_v4_live_parallel_multiple.json", "functions": ["estimate_derivative", "math_gcd"]}
+{"id": "live_parallel_multiple_16-14-0", "file": "BFCL_v4_live_parallel_multiple.json", "functions": ["get_area_of_square", "get_current_weather"]}
+{"id": "live_parallel_multiple_4-3-0", "file": "BFCL_v4_live_parallel_multiple.json", "functions": ["get_news_report"]}
+{"id": "live_relevance_0-0-0", "file": "BFCL_v4_live_relevance.json", "functions": ["generate_human_image", "generate_image", "search_engine.query"]}
+{"id": "live_relevance_1-1-0", "file": "BFCL_v4_live_relevance.json", "functions": ["english_llm", "generate_human_image", "generate_image", "multilingual_llm", "search_engine.query"]}
+{"id": "live_relevance_15-15-0", "file": "BFCL_v4_live_relevance.json", "functions": ["interior_design_analysis.generate_report"]}
+{"id": "live_relevance_3-3-0", "file": "BFCL_v4_live_relevance.json", "functions": ["open_meteo_api.fetch_weather_data"]}
+{"id": "live_relevance_5-5-0", "file": "BFCL_v4_live_relevance.json", "functions": ["get_copyright_info"]}
+{"id": "live_relevance_8-8-0", "file": "BFCL_v4_live_relevance.json", "functions": ["Events_3_BuyEventTickets", "Events_3_FindEvents", "RideSharing_2_GetRide"]}
+{"id": "live_simple_104-61-2", "file": "BFCL_v4_live_simple.json", "functions": ["calculate_tax"]}
+{"id": "live_simple_105-62-0", "file": "BFCL_v4_live_simple.json", "functions": ["classify"]}
+{"id": "live_simple_112-68-0", "file": "BFCL_v4_live_simple.json", "functions": ["record"]}
+{"id": "live_simple_113-69-0", "file": "BFCL_v4_live_simple.json", "functions": ["calculate_dynamic_pricing"]}
+{"id": "live_simple_115-71-0", "file": "BFCL_v4_live_simple.json", "functions": ["calculate_sum"]}
+{"id": "live_simple_124-80-0", "file": "BFCL_v4_live_simple.json", "functions": ["get_tickets"]}
+{"id": "live_simple_125-81-0", "file": "BFCL_v4_live_simple.json", "functions": ["concat_strings"]}
+{"id": "live_simple_138-91-0", "file": "BFCL_v4_live_simple.json", "functions": ["reschedule"]}
+{"id": "live_simple_157-95-14", "file": "BFCL_v4_live_simple.json", "functions": ["cmd_controller.execute"]}
+{"id": "live_simple_161-96-0", "file": "BFCL_v4_live_simple.json", "functions": ["get_items"]}
+{"id": "live_simple_181-106-0", "file": "BFCL_v4_live_simple.json", "functions": ["get_service_id"]}
+{"id": "live_simple_184-109-0", "file": "BFCL_v4_live_simple.json", "functions": ["getDataForProfessional"]}
+{"id": "live_simple_189-114-0", "file": "BFCL_v4_live_simple.json", "functions": ["extractor.extract_information"]}
+{"id": "live_simple_20-4-0", "file": "BFCL_v4_live_simple.json", "functions": ["change_food"]}
+{"id": "live_simple_226-118-0", "file": "BFCL_v4_live_simple.json", "functions": ["text_to_speech.convert"]}
+{"id": "live_simple_232-122-1", "file": "BFCL_v4_live_simple.json", "functions": ["reschedule_event"]}
+{"id": "live_simple_235-124-0", "file": "BFCL_v4_live_simple.json", "functions": ["play_spotify_song"]}
+{"id": "live_simple_244-126-2", "file": "BFCL_v4_live_simple.json", "functions": ["set_volume"]}
+{"id": "live_simple_251-133-0", "file": "BFCL_v4_live_simple.json", "functions": ["flight.status.check"]}
+{"id": "live_simple_257-137-1", "file": "BFCL_v4_live_simple.json", "functions": ["answer_question"]}
+{"id": "live_simple_27-7-0", "file": "BFCL_v4_live_simple.json", "functions": ["uber.eat.order"]}
+{"id": "live_simple_31-8-1", "file": "BFCL_v4_live_simple.json", "functions": ["aws.lexv2_models.list_exports"]}
+{"id": "live_simple_32-9-0", "file": "BFCL_v4_live_simple.json", "functions": ["answer.string"]}
+{"id": "live_simple_37-14-0", "file": "BFCL_v4_live_simple.json", "functions": ["parseAnswer"]}
+{"id": "live_simple_40-17-0", "file": "BFCL_v4_live_simple.json", "functions": ["ThinQ_Connect"]}
+{"id": "live_simple_53-24-0", "file": "BFCL_v4_live_simple.json", "functions": ["todo_add"]}
+{"id": "live_simple_57-26-1", "file": "BFCL_v4_live_simple.json", "functions": ["todo_manager.handle_action"]}
+{"id": "live_simple_59-28-0", "file": "BFCL_v4_live_simple.json", "functions": ["get_movies"]}
+{"id": "live_simple_70-34-0", "file": "BFCL_v4_live_simple.json", "functions": ["get_sensor_alerts"]}
+{"id": "live_simple_76-37-0", "file": "BFCL_v4_live_simple.json", "functions": ["language_translator.translate"]}
+{"id": "live_simple_78-39-0", "file": "BFCL_v4_live_simple.json", "functions": ["send_email"]}
+{"id": "live_simple_83-44-0", "file": "BFCL_v4_live_simple.json", "functions": ["sitefinity_create_contentitem"]}
+{"id": "live_simple_92-53-0", "file": "BFCL_v4_live_simple.json", "functions": ["play_artist"]}
+{"id": "live_simple_96-57-0", "file": "BFCL_v4_live_simple.json", "functions": ["get_current_weather"]}
+{"id": "multi_turn_base_117", "file": "BFCL_v4_multi_turn_base.json", "functions": ["TradingBot.fund_account", "TradingBot.get_available_stocks", "TradingBot.get_stock_info", "TradingBot.get_symbol_by_name", "TradingBot.get_watchlist", "TradingBot.place_order", "TradingBot.remove_stock_from_watchlist"]}
+{"id": "multi_turn_base_122", "file": "BFCL_v4_multi_turn_base.json", "functions": ["TradingBot.cancel_order", "TradingBot.get_current_time", "TradingBot.get_order_details", "TradingBot.logout", "TradingBot.place_order", "TradingBot.update_market_status"]}
+{"id": "multi_turn_base_123", "file": "BFCL_v4_multi_turn_base.json", "functions": ["TradingBot.cancel_order", "TradingBot.get_account_info", "TradingBot.get_order_details", "TradingBot.get_stock_info", "TradingBot.logout", "TradingBot.make_transaction", "TradingBot.place_order"]}
+{"id": "multi_turn_base_133", "file": "BFCL_v4_multi_turn_base.json", "functions": ["TicketAPI.close_ticket", "TradingBot.add_stock_to_watchlist", "TradingBot.get_stock_info", "TradingBot.get_symbol_by_name", "TradingBot.get_watchlist"]}
+{"id": "multi_turn_base_136", "file": "BFCL_v4_multi_turn_base.json", "functions": ["MathAPI.mean", "TradingBot.cancel_order", "TradingBot.get_account_info", "TradingBot.get_order_details", "TradingBot.get_stock_info", "TradingBot.get_symbol_by_name", "TradingBot.place_order"]}
+{"id": "multi_turn_base_142", "file": "BFCL_v4_multi_turn_base.json", "functions": ["TradingBot.add_stock_to_watchlist", "TradingBot.fund_account", "TradingBot.get_available_stocks", "TradingBot.get_stock_info", "TradingBot.get_symbol_by_name", "TradingBot.get_watchlist", "TradingBot.place_order"]}
+{"id": "multi_turn_base_145", "file": "BFCL_v4_multi_turn_base.json", "functions": ["MessageAPI.send_message", "MessageAPI.view_messages_received", "TradingBot.add_stock_to_watchlist", "TradingBot.get_order_details", "TradingBot.get_stock_info", "TradingBot.get_symbol_by_name"]}
+{"id": "multi_turn_base_160", "file": "BFCL_v4_multi_turn_base.json", "functions": ["TicketAPI.close_ticket", "TravelAPI.book_flight", "TravelAPI.compute_exchange_rate", "TravelAPI.set_budget_limit"]}
+{"id": "multi_turn_base_19", "file": "BFCL_v4_multi_turn_base.json", "functions": ["GorillaFileSystem.cat", "GorillaFileSystem.cd", "GorillaFileSystem.cp", "GorillaFileSystem.find", "GorillaFileSystem.grep", "GorillaFileSystem.mv", "MessageAPI.send_message"]}
+{"id": "multi_turn_base_27", "file": "BFCL_v4_multi_turn_base.json", "functions": ["GorillaFileSystem.cp", "GorillaFileSystem.rm", "GorillaFileSystem.touch", "TicketAPI.create_ticket", "TicketAPI.edit_ticket"]}
+{"id": "multi_turn_base_33", "file": "BFCL_v4_multi_turn_base.json", "functions": ["GorillaFileSystem.cat", "GorillaFileSystem.find", "GorillaFileSystem.grep", "GorillaFileSystem.mv", "GorillaFileSystem.tail", "MessageAPI.send_message", "MessageAPI.view_messages_received"]}
+{"id": "multi_turn_base_50", "file": "BFCL_v4_multi_turn_base.json", "functions": ["VehicleControlAPI.displayCarStatus", "VehicleControlAPI.lockDoors", "VehicleControlAPI.setHeadlights"]}
+{"id": "multi_turn_base_66", "file": "BFCL_v4_multi_turn_base.json", "functions": ["VehicleControlAPI.estimate_drive_feasibility_by_mileage", "VehicleControlAPI.fillFuelTank", "VehicleControlAPI.get_zipcode_based_on_city", "VehicleControlAPI.set_navigation", "VehicleControlAPI.startEngine"]}
+{"id": "multi_turn_base_72", "file": "BFCL_v4_multi_turn_base.json", "functions": ["MessageAPI.delete_message", "MessageAPI.send_message", "MessageAPI.view_messages_received", "VehicleControlAPI.check_tire_pressure", "VehicleControlAPI.displayCarStatus", "VehicleControlAPI.fillFuelTank", "VehicleControlAPI.startEngine"]}
+{"id": "multi_turn_base_80", "file": "BFCL_v4_multi_turn_base.json", "functions": ["MathAPI.mean", "VehicleControlAPI.estimate_distance", "VehicleControlAPI.estimate_drive_feasibility_by_mileage", "VehicleControlAPI.fillFuelTank", "VehicleControlAPI.get_zipcode_based_on_city", "VehicleControlAPI.startEngine"]}
+{"id": "multi_turn_base_81", "file": "BFCL_v4_multi_turn_base.json", "functions": ["MathAPI.mean", "VehicleControlAPI.check_tire_pressure", "VehicleControlAPI.fillFuelTank", "VehicleControlAPI.liter_to_gallon", "VehicleControlAPI.startEngine"]}
+{"id": "multi_turn_base_85", "file": "BFCL_v4_multi_turn_base.json", "functions": ["VehicleControlAPI.display_log", "VehicleControlAPI.estimate_distance", "VehicleControlAPI.estimate_drive_feasibility_by_mileage", "VehicleControlAPI.fillFuelTank", "VehicleControlAPI.get_zipcode_based_on_city", "VehicleControlAPI.startEngine"]}
+{"id": "multi_turn_base_91", "file": "BFCL_v4_multi_turn_base.json", "functions": ["MessageAPI.send_message", "MessageAPI.view_messages_received", "VehicleControlAPI.get_outside_temperature_from_google"]}
+{"id": "multi_turn_long_context_0", "file": "BFCL_v4_multi_turn_long_context.json", "functions": ["GorillaFileSystem.diff", "GorillaFileSystem.find", "GorillaFileSystem.grep", "GorillaFileSystem.mv", "GorillaFileSystem.sort", "TwitterAPI.post_tweet"]}
+{"id": "multi_turn_long_context_107", "file": "BFCL_v4_multi_turn_long_context.json", "functions": ["TradingBot.cancel_order", "TradingBot.get_account_info", "TradingBot.get_order_details", "TradingBot.get_stock_info", "TradingBot.get_symbol_by_name", "TradingBot.place_order"]}
+{"id": "multi_turn_long_context_127", "file": "BFCL_v4_multi_turn_long_context.json", "functions": ["TradingBot.get_order_details", "TradingBot.get_stock_info", "TradingBot.get_watchlist", "TradingBot.place_order", "TradingBot.remove_stock_from_watchlist"]}
+{"id": "multi_turn_long_context_14", "file": "BFCL_v4_multi_turn_long_context.json", "functions": ["GorillaFileSystem.cd", "GorillaFileSystem.find", "GorillaFileSystem.grep", "GorillaFileSystem.mkdir", "GorillaFileSystem.tail", "MessageAPI.send_message"]}
+{"id": "multi_turn_long_context_143", "file": "BFCL_v4_multi_turn_long_context.json", "functions": ["MessageAPI.send_message", "TradingBot.add_stock_to_watchlist", "TradingBot.cancel_order", "TradingBot.get_account_info", "TradingBot.get_order_details", "TradingBot.get_symbol_by_name"]}
+{"id": "multi_turn_long_context_15", "file": "BFCL_v4_multi_turn_long_context.json", "functions": ["GorillaFileSystem.echo", "GorillaFileSystem.sort", "GorillaFileSystem.tail", "GorillaFileSystem.touch", "GorillaFileSystem.wc", "MathAPI.mean"]}
+{"id": "multi_turn_long_context_152", "file": "BFCL_v4_multi_turn_long_context.json", "functions": ["TicketAPI.create_ticket", "TicketAPI.resolve_ticket", "TravelAPI.book_flight", "TravelAPI.cancel_booking", "TravelAPI.compute_exchange_rate", "TravelAPI.get_flight_cost"]}
+{"id": "multi_turn_long_context_154", "file": "BFCL_v4_multi_turn_long_context.json", "functions": ["MessageAPI.send_message", "MessageAPI.view_messages_received", "TravelAPI.book_flight", "TravelAPI.get_flight_cost", "TravelAPI.get_nearest_airport_by_city", "TravelAPI.set_budget_limit", "TravelAPI.verify_traveler_information"]}
+{"id": "multi_turn_long_context_159", "file": "BFCL_v4_multi_turn_long_context.json", "functions": ["TravelAPI.book_flight", "TravelAPI.get_flight_cost", "TravelAPI.list_all_airports", "TravelAPI.purchase_insurance"]}
+{"id": "multi_turn_long_context_164", "file": "BFCL_v4_multi_turn_long_context.json", "functions": ["TravelAPI.book_flight", "TravelAPI.compute_exchange_rate", "TravelAPI.get_flight_cost", "TravelAPI.get_nearest_airport_by_city", "TravelAPI.retrieve_invoice", "TravelAPI.set_budget_limit"]}
+{"id": "multi_turn_long_context_172", "file": "BFCL_v4_multi_turn_long_context.json", "functions": ["MessageAPI.send_message", "MessageAPI.view_messages_received", "TravelAPI.authenticate", "TravelAPI.book_flight", "TravelAPI.register_credit_card"]}
+{"id": "multi_turn_long_context_177", "file": "BFCL_v4_multi_turn_long_context.json", "functions": ["TicketAPI.close_ticket", "TicketAPI.create_ticket", "TravelAPI.book_flight", "TravelAPI.cancel_booking", "TravelAPI.contact_customer_support", "TravelAPI.register_credit_card", "TravelAPI.retrieve_invoice"]}
+{"id": "multi_turn_long_context_18", "file": "BFCL_v4_multi_turn_long_context.json", "functions": ["GorillaFileSystem.cat", "GorillaFileSystem.cp", "GorillaFileSystem.diff", "GorillaFileSystem.mv", "GorillaFileSystem.sort", "TwitterAPI.mention", "TwitterAPI.post_tweet"]}
+{"id": "multi_turn_long_context_196", "file": "BFCL_v4_multi_turn_long_context.json", "functions": ["TicketAPI.create_ticket", "TicketAPI.get_ticket", "TicketAPI.resolve_ticket", "TravelAPI.book_flight", "TravelAPI.cancel_booking", "TravelAPI.compute_exchange_rate", "TravelAPI.set_budget_limit"]}
+{"id": "multi_turn_long_context_35", "file": "BFCL_v4_multi_turn_long_context.json", "functions": ["GorillaFileSystem.cat", "GorillaFileSystem.find", "GorillaFileSystem.grep", "GorillaFileSystem.mv", "GorillaFileSystem.sort", "GorillaFileSystem.wc", "MathAPI.logarithm"]}
+{"id": "multi_turn_long_context_37", "file": "BFCL_v4_multi_turn_long_context.json", "functions": ["GorillaFileSystem.cat", "GorillaFileSystem.cd", "GorillaFileSystem.echo", "GorillaFileSystem.grep", "GorillaFileSystem.tail", "GorillaFileSystem.wc"]}
+{"id": "multi_turn_long_context_43", "file": "BFCL_v4_multi_turn_long_context.json", "functions": ["GorillaFileSystem.cp", "GorillaFileSystem.find", "GorillaFileSystem.grep", "GorillaFileSystem.ls", "GorillaFileSystem.mv", "GorillaFileSystem.tail", "MessageAPI.send_message"]}
+{"id": "multi_turn_long_context_63", "file": "BFCL_v4_multi_turn_long_context.json", "functions": ["VehicleControlAPI.activateParkingBrake", "VehicleControlAPI.estimate_distance", "VehicleControlAPI.fillFuelTank", "VehicleControlAPI.gallon_to_liter", "VehicleControlAPI.get_zipcode_based_on_city", "VehicleControlAPI.lockDoors", "VehicleControlAPI.startEngine"]}
+{"id": "multi_turn_long_context_71", "file": "BFCL_v4_multi_turn_long_context.json", "functions": ["VehicleControlAPI.estimate_distance", "VehicleControlAPI.estimate_drive_feasibility_by_mileage", "VehicleControlAPI.fillFuelTank", "VehicleControlAPI.get_zipcode_based_on_city", "VehicleControlAPI.set_navigation", "VehicleControlAPI.startEngine"]}
+{"id": "multi_turn_long_context_87", "file": "BFCL_v4_multi_turn_long_context.json", "functions": ["VehicleControlAPI.check_tire_pressure", "VehicleControlAPI.fillFuelTank", "VehicleControlAPI.find_nearest_tire_shop", "VehicleControlAPI.gallon_to_liter", "VehicleControlAPI.startEngine"]}
+{"id": "multi_turn_long_context_92", "file": "BFCL_v4_multi_turn_long_context.json", "functions": ["VehicleControlAPI.check_tire_pressure", "VehicleControlAPI.estimate_distance", "VehicleControlAPI.estimate_drive_feasibility_by_mileage", "VehicleControlAPI.fillFuelTank", "VehicleControlAPI.find_nearest_tire_shop", "VehicleControlAPI.startEngine"]}
+{"id": "multi_turn_miss_func_122", "file": "BFCL_v4_multi_turn_miss_func.json", "functions": ["TradingBot.cancel_order", "TradingBot.get_current_time", "TradingBot.get_order_details", "TradingBot.logout", "TradingBot.place_order", "TradingBot.update_market_status"]}
+{"id": "multi_turn_miss_func_131", "file": "BFCL_v4_multi_turn_miss_func.json", "functions": ["MessageAPI.delete_message", "MessageAPI.send_message", "TradingBot.get_available_stocks", "TradingBot.get_current_time", "TradingBot.get_order_details", "TradingBot.get_stock_info", "TradingBot.place_order"]}
+{"id": "multi_turn_miss_func_135", "file": "BFCL_v4_multi_turn_miss_func.json", "functions": ["TradingBot.add_stock_to_watchlist", "TradingBot.get_available_stocks", "TradingBot.get_order_details", "TradingBot.get_stock_info", "TradingBot.get_symbol_by_name", "TradingBot.get_watchlist", "TradingBot.place_order"]}
+{"id": "multi_turn_miss_func_161", "file": "BFCL_v4_multi_turn_miss_func.json", "functions": ["MathAPI.mean", "TravelAPI.authenticate", "TravelAPI.get_credit_card_balance", "TravelAPI.register_credit_card"]}
+{"id": "multi_turn_miss_func_167", "file": "BFCL_v4_multi_turn_miss_func.json", "functions": ["TravelAPI.book_flight", "TravelAPI.cancel_booking", "TravelAPI.compute_exchange_rate", "TravelAPI.get_flight_cost", "TravelAPI.get_nearest_airport_by_city", "TravelAPI.retrieve_invoice", "TravelAPI.set_budget_limit"]}
+{"id": "multi_turn_miss_func_18", "file": "BFCL_v4_multi_turn_miss_func.json", "functions": ["GorillaFileSystem.cat", "GorillaFileSystem.cp", "GorillaFileSystem.diff", "GorillaFileSystem.mv", "GorillaFileSystem.sort", "TwitterAPI.mention", "TwitterAPI.post_tweet"]}
+{"id": "multi_turn_miss_func_197", "file": "BFCL_v4_multi_turn_miss_func.json", "functions": ["MessageAPI.delete_message", "MessageAPI.send_message", "TravelAPI.book_flight", "TravelAPI.contact_customer_support", "TravelAPI.purchase_insurance", "TravelAPI.register_credit_card", "TravelAPI.retrieve_invoice"]}
+{"id": "multi_turn_miss_func_28", "file": "BFCL_v4_multi_turn_miss_func.json", "functions": ["GorillaFileSystem.find", "GorillaFileSystem.grep", "GorillaFileSystem.mkdir", "GorillaFileSystem.sort", "GorillaFileSystem.tail", "GorillaFileSystem.wc", "MathAPI.logarithm"]}
+{"id": "multi_turn_miss_func_31", "file": "BFCL_v4_multi_turn_miss_func.json", "functions": ["GorillaFileSystem.find", "GorillaFileSystem.grep", "GorillaFileSystem.mkdir", "GorillaFileSystem.mv", "GorillaFileSystem.wc", "MathAPI.standard_deviation"]}
+{"id": "multi_turn_miss_func_46", "file": "BFCL_v4_multi_turn_miss_func.json", "functions": ["GorillaFileSystem.cat", "GorillaFileSystem.cp", "GorillaFileSystem.diff", "GorillaFileSystem.echo", "GorillaFileSystem.mv", "GorillaFileSystem.sort", "MessageAPI.send_message"]}
+{"id": "multi_turn_miss_func_79", "file": "BFCL_v4_multi_turn_miss_func.json", "functions": ["VehicleControlAPI.displayCarStatus", "VehicleControlAPI.lockDoors", "VehicleControlAPI.setCruiseControl", "VehicleControlAPI.startEngine"]}
+{"id": "multi_turn_miss_func_92", "file": "BFCL_v4_multi_turn_miss_func.json", "functions": ["VehicleControlAPI.check_tire_pressure", "VehicleControlAPI.estimate_distance", "VehicleControlAPI.estimate_drive_feasibility_by_mileage", "VehicleControlAPI.fillFuelTank", "VehicleControlAPI.find_nearest_tire_shop", "VehicleControlAPI.startEngine"]}
+{"id": "multi_turn_miss_param_113", "file": "BFCL_v4_multi_turn_miss_param.json", "functions": ["MessageAPI.delete_message", "MessageAPI.send_message", "TradingBot.add_stock_to_watchlist", "TradingBot.get_stock_info", "TradingBot.get_symbol_by_name", "TradingBot.get_watchlist"]}
+{"id": "multi_turn_miss_param_125", "file": "BFCL_v4_multi_turn_miss_param.json", "functions": ["TicketAPI.get_ticket", "TicketAPI.resolve_ticket", "TradingBot.get_order_details", "TradingBot.get_stock_info", "TradingBot.get_watchlist", "TradingBot.place_order"]}
+{"id": "multi_turn_miss_param_148", "file": "BFCL_v4_multi_turn_miss_param.json", "functions": ["TicketAPI.create_ticket", "TradingBot.cancel_order", "TradingBot.get_account_info", "TradingBot.get_order_details", "TradingBot.get_stock_info", "TradingBot.place_order"]}
+{"id": "multi_turn_miss_param_15", "file": "BFCL_v4_multi_turn_miss_param.json", "functions": ["GorillaFileSystem.echo", "GorillaFileSystem.sort", "GorillaFileSystem.tail", "GorillaFileSystem.touch", "GorillaFileSystem.wc", "MathAPI.mean"]}
+{"id": "multi_turn_miss_param_194", "file": "BFCL_v4_multi_turn_miss_param.json", "functions": ["TravelAPI.book_flight", "TravelAPI.cancel_booking", "TravelAPI.contact_customer_support", "TravelAPI.get_flight_cost", "TravelAPI.list_all_airports", "TravelAPI.purchase_insurance", "TravelAPI.retrieve_invoice"]}
+{"id": "multi_turn_miss_param_198", "file": "BFCL_v4_multi_turn_miss_param.json", "functions": ["TravelAPI.book_flight", "TravelAPI.cancel_booking", "TravelAPI.get_flight_cost", "TwitterAPI.post_tweet"]}
+{"id": "multi_turn_miss_param_23", "file": "BFCL_v4_multi_turn_miss_param.json", "functions": ["GorillaFileSystem.cd", "GorillaFileSystem.cp", "GorillaFileSystem.ls", "GorillaFileSystem.rm", "GorillaFileSystem.touch", "TicketAPI.resolve_ticket"]}
+{"id": "multi_turn_miss_param_4", "file": "BFCL_v4_multi_turn_miss_param.json", "functions": ["GorillaFileSystem.cd", "GorillaFileSystem.echo", "GorillaFileSystem.sort", "TwitterAPI.comment", "TwitterAPI.post_tweet"]}
+{"id": "multi_turn_miss_param_6", "file": "BFCL_v4_multi_turn_miss_param.json", "functions": ["GorillaFileSystem.cat", "GorillaFileSystem.cp", "GorillaFileSystem.mv", "GorillaFileSystem.touch", "GorillaFileSystem.wc"]}
+{"id": "multi_turn_miss_param_63", "file": "BFCL_v4_multi_turn_miss_param.json", "functions": ["VehicleControlAPI.activateParkingBrake", "VehicleControlAPI.estimate_distance", "VehicleControlAPI.fillFuelTank", "VehicleControlAPI.gallon_to_liter", "VehicleControlAPI.get_zipcode_based_on_city", "VehicleControlAPI.lockDoors", "VehicleControlAPI.startEngine"]}
+{"id": "multi_turn_miss_param_74", "file": "BFCL_v4_multi_turn_miss_param.json", "functions": ["MathAPI.mean", "VehicleControlAPI.fillFuelTank", "VehicleControlAPI.liter_to_gallon", "VehicleControlAPI.startEngine"]}
+{"id": "multi_turn_miss_param_76", "file": "BFCL_v4_multi_turn_miss_param.json", "functions": ["TwitterAPI.post_tweet", "VehicleControlAPI.check_tire_pressure", "VehicleControlAPI.displayCarStatus", "VehicleControlAPI.lockDoors", "VehicleControlAPI.startEngine"]}
+{"id": "multi_turn_miss_param_77", "file": "BFCL_v4_multi_turn_miss_param.json", "functions": ["TwitterAPI.post_tweet", "TwitterAPI.retweet", "VehicleControlAPI.estimate_distance", "VehicleControlAPI.get_zipcode_based_on_city", "VehicleControlAPI.startEngine"]}
+{"id": "multi_turn_miss_param_87", "file": "BFCL_v4_multi_turn_miss_param.json", "functions": ["VehicleControlAPI.check_tire_pressure", "VehicleControlAPI.fillFuelTank", "VehicleControlAPI.find_nearest_tire_shop", "VehicleControlAPI.gallon_to_liter", "VehicleControlAPI.startEngine"]}
+{"id": "multi_turn_miss_param_96", "file": "BFCL_v4_multi_turn_miss_param.json", "functions": ["VehicleControlAPI.displayCarStatus", "VehicleControlAPI.estimate_distance", "VehicleControlAPI.get_zipcode_based_on_city", "VehicleControlAPI.lockDoors", "VehicleControlAPI.startEngine"]}
+{"id": "multiple_104", "file": "BFCL_v4_multiple.json", "functions": ["get_shortest_driving_distance"]}
+{"id": "multiple_118", "file": "BFCL_v4_multiple.json", "functions": ["imdb.find_movies_by_actor"]}
+{"id": "multiple_119", "file": "BFCL_v4_multiple.json", "functions": ["database.query"]}
+{"id": "multiple_121", "file": "BFCL_v4_multiple.json", "functions": ["geometry.area_triangle"]}
+{"id": "multiple_127", "file": "BFCL_v4_multiple.json", "functions": ["finance.calculate_quarterly_dividend_per_share"]}
+{"id": "multiple_130", "file": "BFCL_v4_multiple.json", "functions": ["calculate_cagr"]}
+{"id": "multiple_131", "file": "BFCL_v4_multiple.json", "functions": ["market_performance.get_data"]}
+{"id": "multiple_134", "file": "BFCL_v4_multiple.json", "functions": ["crime_record.get_record"]}
+{"id": "multiple_135", "file": "BFCL_v4_multiple.json", "functions": ["get_case_info"]}
+{"id": "multiple_136", "file": "BFCL_v4_multiple.json", "functions": ["get_crime_rate"]}
+{"id": "multiple_138", "file": "BFCL_v4_multiple.json", "functions": ["legal_case.fetch"]}
+{"id": "multiple_140", "file": "BFCL_v4_multiple.json", "functions": ["lawsuits_search"]}
+{"id": "multiple_142", "file": "BFCL_v4_multiple.json", "functions": ["weather.humidity_forecast"]}
+{"id": "multiple_145", "file": "BFCL_v4_multiple.json", "functions": ["calculate_emissions"]}
+{"id": "multiple_151", "file": "BFCL_v4_multiple.json", "functions": ["social_media_analytics.most_followed"]}
+{"id": "multiple_154", "file": "BFCL_v4_multiple.json", "functions": ["US_president.in_year"]}
+{"id": "multiple_157", "file": "BFCL_v4_multiple.json", "functions": ["get_earliest_reference"]}
+{"id": "multiple_158", "file": "BFCL_v4_multiple.json", "functions": ["religious_history.get_papal_biography"]}
+{"id": "multiple_161", "file": "BFCL_v4_multiple.json", "functions": ["find_exhibition"]}
+{"id": "multiple_163", "file": "BFCL_v4_multiple.json", "functions": ["metropolitan_museum.get_top_artworks"]}
+{"id": "multiple_166", "file": "BFCL_v4_multiple.json", "functions": ["concert.search"]}
+{"id": "multiple_170", "file": "BFCL_v4_multiple.json", "functions": ["soccer_stat.get_player_stats"]}
+{"id": "multiple_172", "file": "BFCL_v4_multiple.json", "functions": ["sports_db.find_athlete"]}
+{"id": "multiple_176", "file": "BFCL_v4_multiple.json", "functions": ["sports_team.get_schedule"]}
+{"id": "multiple_180", "file": "BFCL_v4_multiple.json", "functions": ["game_stats.fetch_player_statistics"]}
+{"id": "multiple_188", "file": "BFCL_v4_multiple.json", "functions": ["grocery_store.find_best"]}
+{"id": "multiple_189", "file": "BFCL_v4_multiple.json", "functions": ["timezone.convert"]}
+{"id": "multiple_190", "file": "BFCL_v4_multiple.json", "functions": ["book_hotel"]}
+{"id": "multiple_193", "file": "BFCL_v4_multiple.json", "functions": ["maps.get_distance_duration"]}
+{"id": "multiple_194", "file": "BFCL_v4_multiple.json", "functions": ["get_museum_hours"]}
+{"id": "multiple_26", "file": "BFCL_v4_multiple.json", "functions": ["game_rewards.get"]}
+{"id": "multiple_34", "file": "BFCL_v4_multiple.json", "functions": ["math.lcm"]}
+{"id": "multiple_46", "file": "BFCL_v4_multiple.json", "functions": ["sort_list"]}
+{"id": "multiple_55", "file": "BFCL_v4_multiple.json", "functions": ["stock_forecast"]}
+{"id": "multiple_97", "file": "BFCL_v4_multiple.json", "functions": ["geometry.area_circle"]}
+{"id": "parallel_101", "file": "BFCL_v4_parallel.json", "functions": ["calculate_density"]}
+{"id": "parallel_102", "file": "BFCL_v4_parallel.json", "functions": ["calc_absolute_pressure"]}
+{"id": "parallel_108", "file": "BFCL_v4_parallel.json", "functions": ["biology.get_cell_info"]}
+{"id": "parallel_110", "file": "BFCL_v4_parallel.json", "functions": ["cell_biology.function_lookup"]}
+{"id": "parallel_111", "file": "BFCL_v4_parallel.json", "functions": ["calculate_molecular_weight"]}
+{"id": "parallel_113", "file": "BFCL_v4_parallel.json", "functions": ["diabetes_prediction"]}
+{"id": "parallel_114", "file": "BFCL_v4_parallel.json", "functions": ["analyze_dna_sequence"]}
+{"id": "parallel_119", "file": "BFCL_v4_parallel.json", "functions": ["identify_bird"]}
+{"id": "parallel_120", "file": "BFCL_v4_parallel.json", "functions": ["forest_growth_forecast"]}
+{"id": "parallel_122", "file": "BFCL_v4_parallel.json", "functions": ["calculate_vehicle_emission"]}
+{"id": "parallel_125", "file": "BFCL_v4_parallel.json", "functions": ["elephant_population_estimate"]}
+{"id": "parallel_126", "file": "BFCL_v4_parallel.json", "functions": ["prediction.evolution"]}
+{"id": "parallel_130", "file": "BFCL_v4_parallel.json", "functions": ["find_restaurants"]}
+{"id": "parallel_131", "file": "BFCL_v4_parallel.json", "functions": ["map_routing.fastest_route"]}
+{"id": "parallel_132", "file": "BFCL_v4_parallel.json", "functions": ["calculate_average"]}
+{"id": "parallel_141", "file": "BFCL_v4_parallel.json", "functions": ["get_theater_movie_releases"]}
+{"id": "parallel_145", "file": "BFCL_v4_parallel.json", "functions": ["calculate_clock_angle"]}
+{"id": "parallel_148", "file": "BFCL_v4_parallel.json", "functions": ["calculate_speed"]}
+{"id": "parallel_156", "file": "BFCL_v4_parallel.json", "functions": ["random_forest.train"]}
+{"id": "parallel_157", "file": "BFCL_v4_parallel.json", "functions": ["predict_house_price"]}
+{"id": "parallel_16", "file": "BFCL_v4_parallel.json", "functions": ["calculate_return_on_investment"]}
+{"id": "parallel_164", "file": "BFCL_v4_parallel.json", "functions": ["chi_squared_test"]}
+{"id": "parallel_173", "file": "BFCL_v4_parallel.json", "functions": ["investment.predictProfit"]}
+{"id": "parallel_175", "file": "BFCL_v4_parallel.json", "functions": ["portfolio_future_value"]}
+{"id": "parallel_177", "file": "BFCL_v4_parallel.json", "functions": ["get_metal_price"]}
+{"id": "parallel_179", "file": "BFCL_v4_parallel.json", "functions": ["get_stock_price"]}
+{"id": "parallel_181", "file": "BFCL_v4_parallel.json", "functions": ["get_stock_prices"]}
+{"id": "parallel_186", "file": "BFCL_v4_parallel.json", "functions": ["calculate_emission_savings"]}
+{"id": "parallel_187", "file": "BFCL_v4_parallel.json", "functions": ["get_air_quality"]}
+{"id": "parallel_189", "file": "BFCL_v4_parallel.json", "functions": ["parks.find_nearby"]}
+{"id": "parallel_191", "file": "BFCL_v4_parallel.json", "functions": ["public_library.find_nearby"]}
+{"id": "parallel_194", "file": "BFCL_v4_parallel.json", "functions": ["event_finder.find_upcoming"]}
+{"id": "parallel_197", "file": "BFCL_v4_parallel.json", "functions": ["lawsuit_info"]}
+{"id": "parallel_47", "file": "BFCL_v4_parallel.json", "functions": ["get_team_ranking"]}
+{"id": "parallel_52", "file": "BFCL_v4_parallel.json", "functions": ["restaurant_finder"]}
+{"id": "parallel_56", "file": "BFCL_v4_parallel.json", "functions": ["hotel_booking.check_availability"]}
+{"id": "parallel_57", "file": "BFCL_v4_parallel.json", "functions": ["hotel_booking.book"]}
+{"id": "parallel_58", "file": "BFCL_v4_parallel.json", "functions": ["get_exchange_rate"]}
+{"id": "parallel_61", "file": "BFCL_v4_parallel.json", "functions": ["math.hypot"]}
+{"id": "parallel_62", "file": "BFCL_v4_parallel.json", "functions": ["algebra.quadratic_roots"]}
+{"id": "parallel_73", "file": "BFCL_v4_parallel.json", "functions": ["calculus.derivative"]}
+{"id": "parallel_78", "file": "BFCL_v4_parallel.json", "functions": ["number_theory.gcd"]}
+{"id": "parallel_79", "file": "BFCL_v4_parallel.json", "functions": ["prime_factorize"]}
+{"id": "parallel_80", "file": "BFCL_v4_parallel.json", "functions": ["math.gcd"]}
+{"id": "parallel_87", "file": "BFCL_v4_parallel.json", "functions": ["calculate_final_velocity"]}
+{"id": "parallel_89", "file": "BFCL_v4_parallel.json", "functions": ["get_directions"]}
+{"id": "parallel_90", "file": "BFCL_v4_parallel.json", "functions": ["travel_itinerary_generator"]}
+{"id": "parallel_94", "file": "BFCL_v4_parallel.json", "functions": ["calculate_electric_field"]}
+{"id": "parallel_97", "file": "BFCL_v4_parallel.json", "functions": ["calculate_resonant_frequency"]}
+{"id": "parallel_multiple_106", "file": "BFCL_v4_parallel_multiple.json", "functions": ["calculate_distance", "traffic_estimate", "weather_forecast"]}
+{"id": "parallel_multiple_112", "file": "BFCL_v4_parallel_multiple.json", "functions": ["art_auction.fetch_artwork_price", "library.search_book"]}
+{"id": "parallel_multiple_133", "file": "BFCL_v4_parallel_multiple.json", "functions": ["math.hcf", "music_generator.generate_scale_progression"]}
+{"id": "parallel_multiple_135", "file": "BFCL_v4_parallel_multiple.json", "functions": ["calculate_displacement", "musical_scale", "poker_game_winner"]}
+{"id": "parallel_multiple_136", "file": "BFCL_v4_parallel_multiple.json", "functions": ["calculate_final_speed", "chess.rating", "court_case.search", "get_event_date"]}
+{"id": "parallel_multiple_139", "file": "BFCL_v4_parallel_multiple.json", "functions": ["calculate_electric_field_strength", "cooking_conversion.convert", "group_dynamics.pattern", "mix_paint_color"]}
+{"id": "parallel_multiple_142", "file": "BFCL_v4_parallel_multiple.json", "functions": ["get_collectables_in_season", "mutation_type.find"]}
+{"id": "parallel_multiple_144", "file": "BFCL_v4_parallel_multiple.json", "functions": ["forest_growth_forecast", "get_scientist_for_discovery"]}
+{"id": "parallel_multiple_148", "file": "BFCL_v4_parallel_multiple.json", "functions": ["calculate_bmi", "celebrity_net_worth.get"]}
+{"id": "parallel_multiple_149", "file": "BFCL_v4_parallel_multiple.json", "functions": ["calculate_BMI", "hotel_booking", "soccer.get_last_match"]}
+{"id": "parallel_multiple_151", "file": "BFCL_v4_parallel_multiple.json", "functions": ["book_hotel", "latest_exchange_rate", "light_travel_time", "safeway.order"]}
+{"id": "parallel_multiple_155", "file": "BFCL_v4_parallel_multiple.json", "functions": ["fetch_DNA_sequence", "math.power", "probabilities.calculate_single"]}
+{"id": "parallel_multiple_156", "file": "BFCL_v4_parallel_multiple.json", "functions": ["get_personality_traits", "restaurant_search.find_closest", "run_two_sample_ttest"]}
+{"id": "parallel_multiple_158", "file": "BFCL_v4_parallel_multiple.json", "functions": ["finance.calculate_quarterly_dividend_per_share", "get_song_lyrics", "mix_paint_color", "movie_details.brief"]}
+{"id": "parallel_multiple_160", "file": "BFCL_v4_parallel_multiple.json", "functions": ["compound_interest", "lawsuits_search"]}
+{"id": "parallel_multiple_161", "file": "BFCL_v4_parallel_multiple.json", "functions": ["calculate_cagr", "chess.rating", "solve_quadratic"]}
+{"id": "parallel_multiple_162", "file": "BFCL_v4_parallel_multiple.json", "functions": ["create_histogram", "finance.calculate_future_value", "mix_paint_color"]}
+{"id": "parallel_multiple_163", "file": "BFCL_v4_parallel_multiple.json", "functions": ["calculate_mutual_fund_balance", "geometry.calculate_area_circle"]}
+{"id": "parallel_multiple_167", "file": "BFCL_v4_parallel_multiple.json", "functions": ["calculate_binomial_probability", "game_score.highest", "get_collectables_in_season", "lawsuit_details.find"]}
+{"id": "parallel_multiple_168", "file": "BFCL_v4_parallel_multiple.json", "functions": ["hilton_hotel.check_availability", "lawsuits_search"]}
+{"id": "parallel_multiple_170", "file": "BFCL_v4_parallel_multiple.json", "functions": ["calculate_slope_gradient", "concert.find_nearby", "create_player_profile", "poker_probability.full_house"]}
+{"id": "parallel_multiple_171", "file": "BFCL_v4_parallel_multiple.json", "functions": ["air_quality", "sports_ranking"]}
+{"id": "parallel_multiple_173", "file": "BFCL_v4_parallel_multiple.json", "functions": ["ecology_data.precipitation_stats", "restaurant.find_nearby"]}
+{"id": "parallel_multiple_174", "file": "BFCL_v4_parallel_multiple.json", "functions": ["convert_currency", "ecology.get_turtle_population", "map_service.get_directions"]}
+{"id": "parallel_multiple_175", "file": "BFCL_v4_parallel_multiple.json", "functions": ["get_current_time", "get_stock_info"]}
+{"id": "parallel_multiple_177", "file": "BFCL_v4_parallel_multiple.json", "functions": ["get_sculpture_value", "history.get_key_events"]}
+{"id": "parallel_multiple_178", "file": "BFCL_v4_parallel_multiple.json", "functions": ["calculate_entropy_change", "get_event_date", "locate_tallest_mountains"]}
+{"id": "parallel_multiple_179", "file": "BFCL_v4_parallel_multiple.json", "functions": ["US_president.in_year", "find_card_in_deck", "soccer.get_last_match", "update_user_info"]}
+{"id": "parallel_multiple_181", "file": "BFCL_v4_parallel_multiple.json", "functions": ["historical_contrib.get_contrib", "math.gcd", "music.calculate_note_duration"]}
+{"id": "parallel_multiple_182", "file": "BFCL_v4_parallel_multiple.json", "functions": ["calculate_paint_needed", "musical_scale", "prob_dist.binomial"]}
+{"id": "parallel_multiple_186", "file": "BFCL_v4_parallel_multiple.json", "functions": ["board_game.chess.get_top_players", "guitar_price.find", "identify_color_rgb"]}
+{"id": "parallel_multiple_187", "file": "BFCL_v4_parallel_multiple.json", "functions": ["array_sort", "calculate_cagr", "get_defense_ranking"]}
+{"id": "parallel_multiple_188", "file": "BFCL_v4_parallel_multiple.json", "functions": ["calculate_binomial_probability", "electromagnetic_force", "find_instrument", "sports_ranking.get_top_player"]}
+{"id": "parallel_multiple_189", "file": "BFCL_v4_parallel_multiple.json", "functions": ["find_card_in_deck", "hotel_booking", "sports_team.get_schedule", "vegan_restaurant.find_nearby"]}
+{"id": "parallel_multiple_191", "file": "BFCL_v4_parallel_multiple.json", "functions": ["currency_exchange.convert", "find_card_in_deck", "local_nursery.find", "recipe.unit_conversion"]}
+{"id": "parallel_multiple_192", "file": "BFCL_v4_parallel_multiple.json", "functions": ["find_recipe", "hospital.locate", "poker_probability.full_house"]}
+{"id": "parallel_multiple_197", "file": "BFCL_v4_parallel_multiple.json", "functions": ["detailed_weather_forecast", "get_time_difference", "recipe_search"]}
+{"id": "parallel_multiple_198", "file": "BFCL_v4_parallel_multiple.json", "functions": ["find_recipe", "science_history.get_discovery_details"]}
+{"id": "parallel_multiple_83", "file": "BFCL_v4_parallel_multiple.json", "functions": ["calculate_derivative", "calculate_integral"]}
+{"id": "parallel_multiple_92", "file": "BFCL_v4_parallel_multiple.json", "functions": ["calculate.weight_in_space", "currency_conversion", "unit_conversion.convert"]}
+{"id": "parallel_multiple_94", "file": "BFCL_v4_parallel_multiple.json", "functions": ["filter_list", "sort_list", "sum_elements"]}
+{"id": "simple_python_1", "file": "BFCL_v4_simple_python.json", "functions": ["math.factorial"]}
+{"id": "simple_python_10", "file": "BFCL_v4_simple_python.json", "functions": ["calculate_area"]}
+{"id": "simple_python_100", "file": "BFCL_v4_simple_python.json", "functions": ["light_travel_time"]}
+{"id": "simple_python_103", "file": "BFCL_v4_simple_python.json", "functions": ["mathematics.calculate_area_under_curve"]}
+{"id": "simple_python_106", "file": "BFCL_v4_simple_python.json", "functions": ["train_random_forest_classifier"]}
+{"id": "simple_python_108", "file": "BFCL_v4_simple_python.json", "functions": ["run_linear_regression"]}
+{"id": "simple_python_11", "file": "BFCL_v4_simple_python.json", "functions": ["calculate_triangle_area"]}
+{"id": "simple_python_111", "file": "BFCL_v4_simple_python.json", "functions": ["random.normalvariate"]}
+{"id": "simple_python_112", "file": "BFCL_v4_simple_python.json", "functions": ["calculate_probability"]}
+{"id": "simple_python_113", "file": "BFCL_v4_simple_python.json", "functions": ["probability.dice_roll"]}
+{"id": "simple_python_117", "file": "BFCL_v4_simple_python.json", "functions": ["probability_of_event"]}
+{"id": "simple_python_12", "file": "BFCL_v4_simple_python.json", "functions": ["geometry.circumference"]}
+{"id": "simple_python_121", "file": "BFCL_v4_simple_python.json", "functions": ["calc_binomial_prob"]}
+{"id": "simple_python_124", "file": "BFCL_v4_simple_python.json", "functions": ["t_test"]}
+{"id": "simple_python_126", "file": "BFCL_v4_simple_python.json", "functions": ["linear_regression.get_r_squared"]}
+{"id": "simple_python_129", "file": "BFCL_v4_simple_python.json", "functions": ["calculate_discounted_cash_flow"]}
+{"id": "simple_python_13", "file": "BFCL_v4_simple_python.json", "functions": ["calculate_area_under_curve"]}
+{"id": "simple_python_131", "file": "BFCL_v4_simple_python.json", "functions": ["calculate_compound_interest"]}
+{"id": "simple_python_132", "file": "BFCL_v4_simple_python.json", "functions": ["calculate_return_on_equity"]}
+{"id": "simple_python_133", "file": "BFCL_v4_simple_python.json", "functions": ["finance.predict_future_value"]}
+{"id": "simple_python_137", "file": "BFCL_v4_simple_python.json", "functions": ["calculate_stock_return"]}
+{"id": "simple_python_146", "file": "BFCL_v4_simple_python.json", "functions": ["stock_price"]}
+{"id": "simple_python_15", "file": "BFCL_v4_simple_python.json", "functions": ["integrate"]}
+{"id": "simple_python_152", "file": "BFCL_v4_simple_python.json", "functions": ["calculate_mutual_fund_balance"]}
+{"id": "simple_python_153", "file": "BFCL_v4_simple_python.json", "functions": ["calculate_compounded_interest"]}
+{"id": "simple_python_154", "file": "BFCL_v4_simple_python.json", "functions": ["calculate_future_value"]}
+{"id": "simple_python_166", "file": "BFCL_v4_simple_python.json", "functions": ["lawyer.find_nearby"]}
+{"id": "simple_python_17", "file": "BFCL_v4_simple_python.json", "functions": ["get_prime_factors"]}
+{"id": "simple_python_170", "file": "BFCL_v4_simple_python.json", "functions": ["law_case_search.find_historical"]}
+{"id": "simple_python_174", "file": "BFCL_v4_simple_python.json", "functions": ["get_top_cases"]}
+{"id": "simple_python_18", "file": "BFCL_v4_simple_python.json", "functions": ["number_analysis.prime_factors"]}
+{"id": "simple_python_181", "file": "BFCL_v4_simple_python.json", "functions": ["get_lawsuit_details"]}
+{"id": "simple_python_183", "file": "BFCL_v4_simple_python.json", "functions": ["lawsuit_search"]}
+{"id": "simple_python_184", "file": "BFCL_v4_simple_python.json", "functions": ["lawsuit.check_case"]}
+{"id": "simple_python_190", "file": "BFCL_v4_simple_python.json", "functions": ["park_information"]}
+{"id": "simple_python_192", "file": "BFCL_v4_simple_python.json", "functions": ["calculate_slope_gradient"]}
+{"id": "simple_python_201", "file": "BFCL_v4_simple_python.json", "functions": ["estimate_population"]}
+{"id": "simple_python_204", "file": "BFCL_v4_simple_python.json", "functions": ["restaurant.find_nearby"]}
+{"id": "simple_python_205", "file": "BFCL_v4_simple_python.json", "functions": ["get_traffic_info"]}
+{"id": "simple_python_207", "file": "BFCL_v4_simple_python.json", "functions": ["calculate_shortest_distance"]}
+{"id": "simple_python_210", "file": "BFCL_v4_simple_python.json", "functions": ["get_news"]}
+{"id": "simple_python_213", "file": "BFCL_v4_simple_python.json", "functions": ["flight.book"]}
+{"id": "simple_python_220", "file": "BFCL_v4_simple_python.json", "functions": ["calculate_neuronal_activity"]}
+{"id": "simple_python_237", "file": "BFCL_v4_simple_python.json", "functions": ["get_historical_GDP"]}
+{"id": "simple_python_243", "file": "BFCL_v4_simple_python.json", "functions": ["get_discoverer"]}
+{"id": "simple_python_248", "file": "BFCL_v4_simple_python.json", "functions": ["science_history.get_invention"]}
+{"id": "simple_python_252", "file": "BFCL_v4_simple_python.json", "functions": ["get_religion_history"]}
+{"id": "simple_python_26", "file": "BFCL_v4_simple_python.json", "functions": ["calculate_velocity"]}
+{"id": "simple_python_262", "file": "BFCL_v4_simple_python.json", "functions": ["modify_painting"]}
+{"id": "simple_python_263", "file": "BFCL_v4_simple_python.json", "functions": ["get_sculpture_info"]}
+{"id": "simple_python_264", "file": "BFCL_v4_simple_python.json", "functions": ["sculpture.get_details"]}
+{"id": "simple_python_27", "file": "BFCL_v4_simple_python.json", "functions": ["final_velocity"]}
+{"id": "simple_python_270", "file": "BFCL_v4_simple_python.json", "functions": ["building.get_dimensions"]}
+{"id": "simple_python_271", "file": "BFCL_v4_simple_python.json", "functions": ["analyze_structure"]}
+{"id": "simple_python_274", "file": "BFCL_v4_simple_python.json", "functions": ["museum_info"]}
+{"id": "simple_python_276", "file": "BFCL_v4_simple_python.json", "functions": ["museum_working_hours.get"]}
+{"id": "simple_python_279", "file": "BFCL_v4_simple_python.json", "functions": ["instrument_price.get"]}
+{"id": "simple_python_282", "file": "BFCL_v4_simple_python.json", "functions": ["find_flute"]}
+{"id": "simple_python_283", "file": "BFCL_v4_simple_python.json", "functions": ["guitar_price.find"]}
+{"id": "simple_python_288", "file": "BFCL_v4_simple_python.json", "functions": ["concert_booking.book_ticket"]}
+{"id": "simple_python_291", "file": "BFCL_v4_simple_python.json", "functions": ["music_generator.generate_melody"]}
+{"id": "simple_python_295", "file": "BFCL_v4_simple_python.json", "functions": ["get_song_lyrics"]}
+{"id": "simple_python_299", "file": "BFCL_v4_simple_python.json", "functions": ["musical_scale"]}
+{"id": "simple_python_30", "file": "BFCL_v4_simple_python.json", "functions": ["kinematics.final_velocity_from_distance"]}
+{"id": "simple_python_307", "file": "BFCL_v4_simple_python.json", "functions": ["game_result.get_winner"]}
+{"id": "simple_python_308", "file": "BFCL_v4_simple_python.json", "functions": ["sports.match_schedule"]}
+{"id": "simple_python_312", "file": "BFCL_v4_simple_python.json", "functions": ["player_statistic"]}
+{"id": "simple_python_319", "file": "BFCL_v4_simple_python.json", "functions": ["sports_ranking"]}
+{"id": "simple_python_32", "file": "BFCL_v4_simple_python.json", "functions": ["calculate_final_speed"]}
+{"id": "simple_python_326", "file": "BFCL_v4_simple_python.json", "functions": ["get_team_score"]}
+{"id": "simple_python_338", "file": "BFCL_v4_simple_python.json", "functions": ["card_game_probability.calculate"]}
+{"id": "simple_python_351", "file": "BFCL_v4_simple_python.json", "functions": ["multiplayer_game_finder"]}
+{"id": "simple_python_355", "file": "BFCL_v4_simple_python.json", "functions": ["recipe_info.get_calories"]}
+{"id": "simple_python_37", "file": "BFCL_v4_simple_python.json", "functions": ["route.estimate_time"]}
+{"id": "simple_python_371", "file": "BFCL_v4_simple_python.json", "functions": ["whole_foods.check_price"]}
+{"id": "simple_python_373", "file": "BFCL_v4_simple_python.json", "functions": ["walmart.purchase"]}
+{"id": "simple_python_375", "file": "BFCL_v4_simple_python.json", "functions": ["walmart.check_price"]}
+{"id": "simple_python_377", "file": "BFCL_v4_simple_python.json", "functions": ["get_current_time"]}
+{"id": "simple_python_388", "file": "BFCL_v4_simple_python.json", "functions": ["currency_exchange.convert"]}
+{"id": "simple_python_390", "file": "BFCL_v4_simple_python.json", "functions": ["currency_conversion.convert"]}
+{"id": "simple_python_397", "file": "BFCL_v4_simple_python.json", "functions": ["distance_calculator.calculate"]}
+{"id": "simple_python_4", "file": "BFCL_v4_simple_python.json", "functions": ["solve_quadratic_equation"]}
+{"id": "simple_python_45", "file": "BFCL_v4_simple_python.json", "functions": ["thermo.calculate_energy"]}
+{"id": "simple_python_46", "file": "BFCL_v4_simple_python.json", "functions": ["calculate_final_temperature"]}
+{"id": "simple_python_47", "file": "BFCL_v4_simple_python.json", "functions": ["get_boiling_melting_points"]}
+{"id": "simple_python_50", "file": "BFCL_v4_simple_python.json", "functions": ["entropy_change.calculate"]}
+{"id": "simple_python_52", "file": "BFCL_v4_simple_python.json", "functions": ["calc_heat_capacity"]}
+{"id": "simple_python_53", "file": "BFCL_v4_simple_python.json", "functions": ["fetch_DNA_sequence"]}
+{"id": "simple_python_54", "file": "BFCL_v4_simple_python.json", "functions": ["get_protein_sequence"]}
+{"id": "simple_python_56", "file": "BFCL_v4_simple_python.json", "functions": ["cellbio.get_proteins"]}
+{"id": "simple_python_63", "file": "BFCL_v4_simple_python.json", "functions": ["genetics.calculate_similarity"]}
+{"id": "simple_python_64", "file": "BFCL_v4_simple_python.json", "functions": ["calculate_genotype_frequency"]}
+{"id": "simple_python_7", "file": "BFCL_v4_simple_python.json", "functions": ["calculate_circumference"]}
+{"id": "simple_python_71", "file": "BFCL_v4_simple_python.json", "functions": ["generate_DNA_sequence"]}
+{"id": "simple_python_72", "file": "BFCL_v4_simple_python.json", "functions": ["calculate_fitness"]}
+{"id": "simple_python_73", "file": "BFCL_v4_simple_python.json", "functions": ["population_projections"]}
+{"id": "simple_python_78", "file": "BFCL_v4_simple_python.json", "functions": ["average_temperature"]}
+{"id": "simple_python_79", "file": "BFCL_v4_simple_python.json", "functions": ["create_histogram"]}
+{"id": "simple_python_85", "file": "BFCL_v4_simple_python.json", "functions": ["geo_distance.calculate"]}
+{"id": "simple_python_86", "file": "BFCL_v4_simple_python.json", "functions": ["city_distance.find_shortest"]}
+{"id": "simple_python_88", "file": "BFCL_v4_simple_python.json", "functions": ["calculate_BMI"]}
+{"id": "simple_python_90", "file": "BFCL_v4_simple_python.json", "functions": ["employee.fetch_data"]}
+{"id": "simple_python_95", "file": "BFCL_v4_simple_python.json", "functions": ["calc_area_triangle"]}
+{"id": "simple_python_99", "file": "BFCL_v4_simple_python.json", "functions": ["plot_sine_wave"]}

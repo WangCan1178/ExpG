@@ -1,0 +1,50 @@
+{"id": "live_irrelevance_2-0-2", "result": "[]", "sample_idx": 0, "input_token_count": 1169, "output_token_count": 3, "latency": 0.8295688629150391}
+{"id": "live_irrelevance_8-0-8", "result": "[]", "sample_idx": 0, "input_token_count": 1172, "output_token_count": 3, "latency": 0.9062657356262207}
+{"id": "live_irrelevance_14-2-2", "result": "[]", "sample_idx": 0, "input_token_count": 816, "output_token_count": 3, "latency": 0.8694667816162109}
+{"id": "live_irrelevance_18-2-6", "result": "[]", "sample_idx": 0, "input_token_count": 860, "output_token_count": 3, "latency": 0.4856109619140625}
+{"id": "live_irrelevance_19-2-7", "result": "[]", "sample_idx": 0, "input_token_count": 830, "output_token_count": 3, "latency": 0.4678518772125244}
+{"id": "live_irrelevance_20-2-8", "result": "[]", "sample_idx": 0, "input_token_count": 846, "output_token_count": 3, "latency": 0.5653388500213623}
+{"id": "live_irrelevance_38-2-26", "result": "None of the functions can be used.", "sample_idx": 0, "input_token_count": 785, "output_token_count": 24, "latency": 0.5726640224456787}
+{"id": "live_irrelevance_60-2-48", "result": "[]", "sample_idx": 0, "input_token_count": 818, "output_token_count": 3, "latency": 0.46131277084350586}
+{"id": "live_irrelevance_66-2-54", "result": "[]", "sample_idx": 0, "input_token_count": 818, "output_token_count": 3, "latency": 0.4673612117767334}
+{"id": "live_irrelevance_83-2-71", "result": "[]", "sample_idx": 0, "input_token_count": 792, "output_token_count": 3, "latency": 0.4842700958251953}
+{"id": "live_irrelevance_89-2-77", "result": "None of the provided functions can be used to check an IP address on VirusTotal.", "sample_idx": 0, "input_token_count": 804, "output_token_count": 51, "latency": 0.7035939693450928}
+{"id": "live_irrelevance_119-8-0", "result": "[]", "sample_idx": 0, "input_token_count": 1129, "output_token_count": 3, "latency": 0.5273301601409912}
+{"id": "live_irrelevance_138-13-4", "result": "[]", "sample_idx": 0, "input_token_count": 3293, "output_token_count": 3, "latency": 1.136239767074585}
+{"id": "live_irrelevance_140-13-6", "result": "None of the functions can be used to answer the question.", "sample_idx": 0, "input_token_count": 2661, "output_token_count": 36, "latency": 1.0269842147827148}
+{"id": "live_irrelevance_141-13-7", "result": "[]", "sample_idx": 0, "input_token_count": 2282, "output_token_count": 3, "latency": 0.9683489799499512}
+{"id": "live_irrelevance_160-19-2", "result": "The given functions cannot be used to retrieve latitude and longitude coordinates.", "sample_idx": 0, "input_token_count": 545, "output_token_count": 39, "latency": 0.6096289157867432}
+{"id": "live_irrelevance_178-29-1", "result": "[]", "sample_idx": 0, "input_token_count": 752, "output_token_count": 3, "latency": 0.45987391471862793}
+{"id": "live_irrelevance_185-31-4", "result": "[order_status_check(order_id=\"USER_NEEDED\", product=\"USER_NEEDED\")]", "sample_idx": 0, "input_token_count": 1537, "output_token_count": 51, "latency": 0.8678898811340332}
+{"id": "live_irrelevance_200-32-13", "result": "[]", "sample_idx": 0, "input_token_count": 772, "output_token_count": 3, "latency": 0.7254679203033447}
+{"id": "live_irrelevance_201-32-14", "result": "[]", "sample_idx": 0, "input_token_count": 754, "output_token_count": 3, "latency": 0.48311305046081543}
+{"id": "live_irrelevance_208-32-21", "result": "[user_authentication.login(username=\"your_username\", password=\"your_password\")]", "sample_idx": 0, "input_token_count": 788, "output_token_count": 39, "latency": 0.9301671981811523}
+{"id": "live_irrelevance_252-53-0", "result": "[list_servers(type=\"mtna\")]", "sample_idx": 0, "input_token_count": 3301, "output_token_count": 24, "latency": 1.2272729873657227}
+{"id": "live_irrelevance_259-56-2", "result": "[version_api.VersionApi.get_version()]", "sample_idx": 0, "input_token_count": 2205, "output_token_count": 24, "latency": 0.9297411441802979}
+{"id": "live_irrelevance_264-56-7", "result": "[]", "sample_idx": 0, "input_token_count": 1509, "output_token_count": 3, "latency": 0.634742021560669}
+{"id": "live_irrelevance_318-76-16", "result": "[requests.get(url=\"https://api.weather.com/v1/data\", params={\"lat\": 51.2194, \"lon\": 4.4025, \"format\": \"json\"})]", "sample_idx": 0, "input_token_count": 1222, "output_token_count": 135, "latency": 1.3091671466827393}
+{"id": "live_irrelevance_320-76-18", "result": "[]", "sample_idx": 0, "input_token_count": 1483, "output_token_count": 3, "latency": 0.5877120494842529}
+{"id": "live_irrelevance_327-76-25", "result": "[]", "sample_idx": 0, "input_token_count": 1506, "output_token_count": 3, "latency": 0.8586008548736572}
+{"id": "live_irrelevance_331-76-29", "result": "[]", "sample_idx": 0, "input_token_count": 1468, "output_token_count": 3, "latency": 0.685215950012207}
+{"id": "live_irrelevance_344-81-5", "result": "[]", "sample_idx": 0, "input_token_count": 1423, "output_token_count": 3, "latency": 0.6275501251220703}
+{"id": "live_irrelevance_364-81-25", "result": "The given functions are not suitable for ordering food from McDonald's.", "sample_idx": 0, "input_token_count": 1468, "output_token_count": 39, "latency": 1.0601518154144287}
+{"id": "live_irrelevance_373-81-34", "result": "[requests.get(url=\"https://api.open-meteo.com/v1/forecast\", params={\"latitude\": 0, \"longitude\": 0, \"daily\": \"temperature_2m_max,temperature_2m_min,precipitation_sum,windspeed_10m_max\", \"forecast_days\": 1})]", "sample_idx": 0, "input_token_count": 1109, "output_token_count": 210, "latency": 1.661987066268921}
+{"id": "live_irrelevance_378-81-39", "result": "[]", "sample_idx": 0, "input_token_count": 1441, "output_token_count": 3, "latency": 0.9375758171081543}
+{"id": "live_irrelevance_391-81-52", "result": "[]", "sample_idx": 0, "input_token_count": 1427, "output_token_count": 3, "latency": 0.6038808822631836}
+{"id": "live_irrelevance_543-168-6", "result": "[]", "sample_idx": 0, "input_token_count": 758, "output_token_count": 3, "latency": 0.4684131145477295}
+{"id": "live_irrelevance_544-168-7", "result": "[]", "sample_idx": 0, "input_token_count": 756, "output_token_count": 3, "latency": 0.4948770999908447}
+{"id": "live_irrelevance_545-168-8", "result": "[]", "sample_idx": 0, "input_token_count": 782, "output_token_count": 3, "latency": 0.5428571701049805}
+{"id": "live_irrelevance_559-172-0", "result": "[]", "sample_idx": 0, "input_token_count": 752, "output_token_count": 3, "latency": 0.5079588890075684}
+{"id": "live_irrelevance_582-182-2", "result": "[getDataForProfessional(province_id=1, is_cleaning_condo=True, available_for_pet=False)]", "sample_idx": 0, "input_token_count": 2023, "output_token_count": 66, "latency": 1.1318449974060059}
+{"id": "live_irrelevance_605-193-7", "result": "[Movies_1_FindMovies(location=\"City, State\", genre=\"Imaginative fiction\")]", "sample_idx": 0, "input_token_count": 1617, "output_token_count": 41, "latency": 0.9936099052429199}
+{"id": "live_irrelevance_618-195-6", "result": "[Events_3_FindEvents(event_type=\"Theater\", city=\"Chi-town\")]", "sample_idx": 0, "input_token_count": 2063, "output_token_count": 51, "latency": 0.9675979614257812}
+{"id": "live_irrelevance_640-203-0", "result": "[Homes_2_FindHomeByArea(area=\"City, State\", intent=\"rent\" or \"buy\", number_of_beds=integer, number_of_baths=integer)]", "sample_idx": 0, "input_token_count": 1236, "output_token_count": 104, "latency": 1.1197590827941895}
+{"id": "live_irrelevance_664-211-4", "result": "Events_3_FindEvents(event_type=\"Music\", city=\"New York, NY\")", "sample_idx": 0, "input_token_count": 3051, "output_token_count": 52, "latency": 1.206787109375}
+{"id": "live_irrelevance_672-215-0", "result": "Homes_2_FindHomeByArea(area=\"City, State\", intent=\"rent\", number_of_beds=1, number_of_baths=1)", "sample_idx": 0, "input_token_count": 1366, "output_token_count": 96, "latency": 1.0684871673583984}
+{"id": "live_irrelevance_674-215-2", "result": "[Homes_2_FindHomeByArea(area=\"City, State\", intent=\"rent\", number_of_beds=1, number_of_baths=1)]", "sample_idx": 0, "input_token_count": 1369, "output_token_count": 96, "latency": 0.9424960613250732}
+{"id": "live_irrelevance_685-223-0", "result": "[Buses_3_FindBus(from_city=\"New York, NY\", to_city=\"Los Angeles, CA\", departure_date=\"04/25/2023\")]", "sample_idx": 0, "input_token_count": 2357, "output_token_count": 108, "latency": 1.4563050270080566}
+{"id": "live_irrelevance_694-225-4", "result": "[Movies_1_FindMovies(location=\"City, State\", genre=\"Supernatural\")]", "sample_idx": 0, "input_token_count": 2150, "output_token_count": 54, "latency": 1.048583984375}
+{"id": "live_irrelevance_704-230-3", "result": "[Payment_1_MakePayment(payment_method=\"credit card\", amount=0, receiver=\"\")]. Please provide the amount and the receiver's details to proceed.", "sample_idx": 0, "input_token_count": 1548, "output_token_count": 71, "latency": 1.076063871383667}
+{"id": "live_irrelevance_797-305-1", "result": "[]", "sample_idx": 0, "input_token_count": 1373, "output_token_count": 3, "latency": 0.4896681308746338}
+{"id": "live_irrelevance_817-314-1", "result": "[]", "sample_idx": 0, "input_token_count": 1072, "output_token_count": 3, "latency": 0.5661213397979736}
+{"id": "live_irrelevance_819-314-3", "result": "[]", "sample_idx": 0, "input_token_count": 1065, "output_token_count": 3, "latency": 0.40814208984375}
