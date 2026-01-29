@@ -3,8 +3,9 @@
 **语言**：中文 / [English](./README.md)
 
 <p align="center">
-  <img src="[paper/latex/figures/gitcha.png](paper/latex/figures/gitcha.png)" alt="ExpG Background" width="60%">
+  <img src="paper/latex/figures/gitcha.png" alt="ExpG 总体框架" width="60%">
 </p>
+
 ### 项目简介
 
 本仓库是论文 **“ExpG: Towards Robust Tool Use in LLM Agents via Experience-Driven Adaptive Guidance”** 的官方实现代码与实验脚本。  
@@ -24,8 +25,6 @@
 - **简称**：ExpG  
 - **关键词**：Tool Use, Agent Memory, Experience Pool, Robustness, LLM Agents  
 
-
-
 论文中核心思想（见 `paper/example_paper.tex`）概括如下：
 
 - 提出一种经验驱动的自适应指导机制 `ExpG`，将历史工具调用视为可分析、可学习的“经验”，而非黑盒事件；
@@ -34,8 +33,9 @@
 - 观测到明显的 **“非参数化 scaling 效应”**：在配备 ExpG 经验指导后，小模型能够在多项指标上超越更大的无经验大模型。
 
 
+
 <p align="center">
-  <img src="[paper/latex/figures/gitpic.png](paper/latex/figures/gitpic.png)" alt="ExpG Overview" width="85%">
+  <img src="paper/latex/figures/gitpic.png" alt="ExpG 总体框架" width="85%">
 </p>
 
 
