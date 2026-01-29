@@ -3,7 +3,7 @@
 **语言**：中文 / [English](./README.md)
 
 <p align="center">
-  <img src="paper/latex/figures/gitcha.png" alt="ExpG 总体框架" width="60%">
+  <img src="paper/latex/figures/gitcha.png" alt="ExpG 挑战" width="60%">
 </p>
 
 ### 项目简介
@@ -35,9 +35,8 @@
 
 
 <p align="center">
-  <img src="paper/latex/figures/gitpic.png" alt="ExpG 总体框架" width="85%">
+  <img src="paper/latex/figures/gitfig.png" alt="ExpG 总体框架" width="85%">
 </p>
-
 
 你可以在 `paper/` 目录中找到完整 LaTeX 源文件及论文图表，例如总体框架图：
 
