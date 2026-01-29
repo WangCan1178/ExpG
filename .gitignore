@@ -1,1 +1,12 @@
-local_vector_store/*experiment/MetaTool/src/generation/result/new_test_res/qwen3-8b/Task2_0_m0.json
+local_vector_store/*
+
+# GitHub single-file limit (100MB): ignore local generation outputs
+experiment/MetaTool/src/generation/result/new_test_res/qwen3-8b/Task2_0_m0.json
+
+# OS / Python caches
+.DS_Store
+**/__pycache__/
+**/*.pyc
+
+# IDE
+**/.idea/
