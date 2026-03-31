@@ -1,4 +1,4 @@
-Table1. Pass@1 and Pass@10 comparison across models and methods.
+Table 1. Pass@1 and Pass@10 comparison across models and methods.
 
 | Model | Method | MetaTool (Pass@1) | MetaTool (Pass@10) | API-Bank (Pass@1) | API-Bank (Pass@10) | BFCL-V3 (Pass@1) | BFCL-V3 (Pass@10) |
 |-------|--------|-------------------|--------------------|-------------------|--------------------|------------------|-------------------|
