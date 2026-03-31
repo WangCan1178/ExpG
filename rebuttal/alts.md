@@ -1,4 +1,4 @@
-Table 1. All numbers are Pass@1 on BFCL-V3 with Qwen3-8B, with each row using exactly one replacement (no combinations).
+Table 3. All numbers are Pass@1 on BFCL-V3 with Qwen3-8B, with each row using exactly one replacement (no combinations).
 
 | Stage                  | Variant                                                                                           | Pass@1                                      | Reduction vs Original |
 |------------------------|---------------------------------------------------------------------------------------------------|---------------------------------------------|------------------------|
