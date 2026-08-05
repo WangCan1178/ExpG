@@ -201,11 +201,11 @@ If you find this repository or ExpG useful in your research or applications, ple
 Since this project is forked from ReMe and reuses its memory system, we also recommend citing:
 
 ```bibtex
-@software{AgentscopeReMe2025,
-  title  = {AgentscopeReMe: Memory Management Kit for Agents},
-  author = {Li Yu and Jiaji Deng and Zouying Cao},
-  url    = {https://github.com/agentscope-ai/ReMe},
-  year   = {2025}
+@software{ReMe2026,
+  title = {Remember me, Refine me: Memory Management Kit for Agents},
+  author = {ReMe Team},
+  url = {https://reme.agentscope.io},
+  year = {2026}
 }
 ```
 
