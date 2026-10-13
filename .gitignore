@@ -11,6 +11,9 @@ experiment/MetaTool/src/generation/result/new_test_res/qwen3-8b/Task2_0_m0.json
 # IDE
 **/.idea/
 
+# Local scratch notebook
+test.ipynb
+
 # Logs
 reme_ai/logs/
 **/logs/

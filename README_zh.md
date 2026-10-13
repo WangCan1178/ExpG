@@ -1,142 +1,185 @@
-## ExpG：通过经验驱动自适应指导实现鲁棒工具使用的语言模型代理
+## ExpG：为智能体 Harness 构建经验驱动的自适应指导，实现持续改进的工具使用
 
 **语言**：中文 / [English](./README.md)
 
 <p align="center">
-  <img src="paper/latex/figures/gitcha.png" alt="ExpG 挑战" width="85%">
+  <img src="paper/latex/figures/gitcha.png" alt="ExpG 概览" width="85%">
 </p>
 
-### 项目简介
+本仓库是论文 **“Constructing Experience-Driven Adaptive Guidance for Continually Improving Tool Use in Agent Harnesses”** 的实现代码与实验脚本。
 
-本仓库是论文 **“ExpG: Towards Robust Tool Use in LLM Agents via Experience-Driven Adaptive Guidance”** 的官方实现代码与实验脚本。  
-我们的实现 **在底层沿用了内存系统工具包 [Agentscope ReMe](https://github.com/agentscope-ai/ReMe) 提供的统一记忆框架**，并在其之上提出了全新的、面向工具使用的经验驱动指导机制以及相应的多项基准实验管线。
+智能体的性能瓶颈正逐渐从模型能力转移到控制执行过程的 harness 上。在 harness 中，工具是智能体与外部环境交互的主要接口，但现有的工具使用指导很少能随运行时条件自适应调整。**ExpG**（Experience-driven Guidance）从历史工具调用中构建经验驱动的自适应指导，刻画每个工具的 **能力边界** 与 **最佳实践**，使工具使用能够随着经验积累而持续改进。
 
-论文中提出的 `ExpG`（Experience-driven Guidance）机制，通过从历史工具调用中挖掘、提炼和复用“经验”，为大模型代理提供关于各类工具的 **能力边界** 与 **最佳实践指导**，从而：
+我们的实现基于 [ReMe](https://github.com/agentscope-ai/ReMe) 的记忆框架。
 
-- 在动态或有噪环境下 **更鲁棒地选择和调用工具**；
-- 让较小模型在带有经验指导的情况下 **超越更大、但无记忆的大模型基线**；
-- 在工具选择、工具调用和响应生成等多个阶段 **带来一致收益**。
+**如何使用 ReMe：** 启动 ReMe 的 Tool Memory 服务后，历史工具调用经 `add_tool_call_result` 写入并评估，经 `summary_tool_memory` 蒸馏成工具级指导，再经 `retrieve_tool_memory` 取回并注入后续推理。向量存储与服务接口由 ReMe 提供，经验获取 / 蒸馏 / 复用策略由 ExpG 实现。本实现基于 **带 Tool Memory 的 ReMe 0.1.x–0.3.x**（即本仓库中的 `reme_ai/`）；当前 ReMe `main`（0.4+，Memory-as-File）已移除上述接口，需另行适配。
 
 ---
 
-### 论文信息
+### 方法
 
-- **标题**：*ExpG: Towards Robust Tool Use in LLM Agents via Experience-Driven Adaptive Guidance*  
-- **简称**：ExpG  
-- **关键词**：Tool-augmented LLMs, LLM agents, Experience-driven learning, Tool memory, Robustness
+ExpG 包含三个阶段（完整细节见 `paper/example_paper.tex`）：
 
-论文中核心思想（见 `paper/example_paper.tex`）概括如下：
+1. **经验获取（Experience Acquisition）**  
+   由 $\mathrm{LLM}_{\mathrm{evaluator}}$ 对历史轨迹中的每次工具调用进行多维度归因分析，从 10 个方面打分，并归为三个视角：**工具使用环境**（工具是否被正确选择、调用时机是否恰当）、**智能体行为**（输入在语法和语义上是否正确）、**工具可靠性**（工具是否稳定执行并返回预期结果）。每条经验按工具名索引并存入向量库。
 
-- 提出一种经验驱动的自适应指导机制 `ExpG`，将历史工具调用视为可分析、可学习的“经验”，而非黑盒事件；
-- 将经验生命周期拆分为三个阶段：**经验获取（acquisition）→ 经验蒸馏（distillation）→ 经验复用（reuse）**；
-- 在 MetaTool、API-Bank、BFCL-V3 等基准上系统验证，展示了在工具选择、调用质量和最终任务得分上的显著提升；
-- 观测到明显的 **“非参数化 scaling 效应”**：在配备 ExpG 经验指导后，小模型能够在多项指标上超越更大的无经验大模型。
+2. **经验蒸馏（Experience Distillation）**  
+   随着时间推移剔除无益经验；按打分向量将剩余经验划分为 **等价类**，在上下文配额 $Q$ 内选出既符合原始分布、又覆盖稀有调用模式的代表性子集；再由 $\mathrm{LLM}_{\mathrm{summarizer}}$ 总结为工具级指导（guidance）。
 
+3. **经验复用（Experience Reuse）**  
+   智能体每次调用同一工具时复用对应指导。**动态指导** 以轻量的上下文提示注入；当经验数量达到 $Q/2$ 且大多数落在同一个非完美等价类时，指导升级为 **稳定指导**，并作为约束合并进工具 schema。新的调用记录会持续修订这两类指导。
 
-你可以在 `paper/` 目录中找到完整 LaTeX 源文件及论文图表，例如总体框架图：
+主要结论：
 
-```text
-paper/
-  latex/
-    figures/
-      overview.pdf      # 方法整体框架示意
-      ablation.png      # 消融实验
-      overlap.png       # 经验覆盖/重叠分析
-      ...
-```
+- 在 MetaTool、API-Bank、BFCL-V3 上，对 **工具选择、工具调用和响应生成** 均带来一致提升；
+- 配备 ExpG 的小模型可以超过不使用 ExpG 的更大模型；
+- 在困难场景（相似工具、不可靠工具、缺失参数 / 缺失函数、无关函数等）中提升尤为明显。
 
 ---
 
-### 仓库结构总览
+### 主实验结果
 
-本仓库包含 ExpG 的核心 **工具记忆实现（`reme_ai/` 中的相关组件）** 以及多套基准实验代码（`experiment/`），整体结构如下：
+MetaTool、API-Bank、BFCL-V3 上的性能对比（%）。**加粗** 为各模型组内最优。Total 按各数据集任务数加权（MetaTool 1,669，API-Bank 399，BFCL-V3 461）。
 
-- **`reme_ai/`**：与 ExpG 直接相关的工具记忆与经验池实现
-  - 工具记忆以 **三阶段流水线** 组织代码（经验获取 / 经验蒸馏 / 经验复用），并分布在以下子目录中：
-    - `summary/`：侧重经验获取与经验蒸馏阶段，对历史工具调用进行抽取、过滤、聚合与总结，构建可复用的经验单元与“指导片段”；
-    - `retrieve/`：侧重经验复用阶段，根据当前工具调用上下文检索合适的经验并返回给上层 Agent；
-    - `vector_store/`：为经验单元提供向量化存储与索引支持，是三阶段共享的底层存储；
-    - `agent/`：将工具记忆与经验指导注入到代理的工具调用流程中；
-    - `service/` 与 `config/`：提供服务封装与默认配置，便于在实验脚本中直接调用上述能力。
+| Model | Method | MetaTool Pass@1 | MetaTool Avg@3 | MetaTool Pass@3 | API-Bank Pass@1 | API-Bank Avg@3 | API-Bank Pass@3 | BFCL-V3 Pass@1 | BFCL-V3 Avg@3 | BFCL-V3 Pass@3 | Total Pass@1 | Total Avg@3 | Total Pass@3 |
+| --- | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| GPT-5 nano | No Method | 72.62 | 72.76 | 78.49 | 82.96 | 83.46 | 86.97 | 53.80 | 53.00 | 60.95 | 70.82 | 70.62 | 76.63 |
+| GPT-5 nano | Few-shot | 74.12 | 75.11 | 82.32 | 83.71 | 83.96 | **87.22** | 56.18 | 55.24 | 61.39 | 72.36 | 72.65 | 79.28 |
+| GPT-5 nano | DRAFT | 73.94 | 73.04 | 78.97 | 84.21 | 83.46 | **87.22** | 57.27 | 57.27 | 62.26 | 72.52 | 71.58 | 77.23 |
+| GPT-5 nano | Mem0 | 74.96 | 76.13 | 82.92 | 84.96 | 85.21 | **87.22** | 60.95 | 61.61 | 65.08 | 73.98 | 74.67 | 80.35 |
+| GPT-5 nano | **ExpG** | **81.67** | **82.07** | **84.60** | **86.72** | **86.55** | **87.22** | **64.43** | **63.99** | **66.38** | **79.32** | **79.22** | **81.69** |
+| DeepSeek-V3 | No Method | 83.10 | 82.94 | 84.66 | 84.71 | 84.38 | 85.46 | 58.79 | 59.65 | 65.94 | 78.92 | 78.66 | 81.37 |
+| DeepSeek-V3 | Few-shot | 82.74 | 83.90 | 86.28 | 85.21 | 84.63 | 86.22 | 60.52 | 60.30 | 67.90 | 79.08 | 79.45 | 82.92 |
+| DeepSeek-V3 | DRAFT | 80.23 | 80.79 | 82.44 | 84.96 | 85.63 | 86.47 | 62.26 | 61.61 | 68.55 | 77.70 | 77.80 | 80.54 |
+| DeepSeek-V3 | Mem0 | 83.88 | 84.56 | 86.40 | 85.46 | 85.55 | 86.47 | 65.08 | 65.15 | 68.33 | 80.70 | 80.91 | 83.12 |
+| DeepSeek-V3 | **ExpG** | **85.26** | **85.38** | **86.52** | **87.72** | **87.39** | **87.97** | **69.41** | **69.92** | **72.02** | **82.76** | **82.61** | **84.11** |
+| Qwen3-8B | No Method | 76.51 | 76.97 | 77.71 | 83.96 | 83.88 | 84.21 | 58.79 | 58.28 | 60.30 | 74.46 | 74.41 | 75.56 |
+| Qwen3-8B | Few-shot | 79.93 | 79.83 | 82.92 | 83.71 | 82.62 | 84.96 | 60.09 | 59.29 | 61.39 | 76.91 | 76.27 | 79.32 |
+| Qwen3-8B | DRAFT | 78.19 | 77.33 | 77.89 | 85.71 | 84.96 | 85.46 | 60.74 | 60.30 | 62.91 | 76.20 | 75.18 | 76.35 |
+| Qwen3-8B | Mem0 | 75.07 | 75.47 | 82.38 | 86.22 | 86.05 | 86.47 | 63.34 | 64.93 | 66.16 | 74.69 | 74.98 | 80.07 |
+| Qwen3-8B | **ExpG** | **83.52** | **84.88** | **85.08** | **86.47** | **87.89** | **87.97** | **67.46** | **66.96** | **68.33** | **81.06** | **81.82** | **82.48** |
+| Qwen3-32B | No Method | 80.05 | 79.43 | 80.17 | 84.71 | 84.88 | 85.21 | 65.15 | 65.08 | 66.16 | 78.05 | 77.55 | 78.41 |
+| Qwen3-32B | **ExpG** | **84.68** | **85.02** | **86.28** | **86.97** | **87.30** | **87.72** | **70.72** | **71.01** | **73.32** | **82.48** | **82.56** | **84.14** |
+| Qwen3-235B | No Method | 78.25 | 79.23 | 80.29 | 85.46 | 85.46 | 85.71 | 71.37 | 71.15 | 73.54 | 78.13 | 78.49 | 79.91 |
+| Qwen3-235B | **ExpG** | **86.34** | **86.70** | **86.94** | **87.47** | **86.97** | **88.22** | **79.61** | **78.52** | **80.04** | **85.29** | **84.98** | **85.69** |
 
-- **`experiment/MetaTool/`**：MetaTool 基准上的 ExpG 实验
-  - `src/`：MetaTool 任务定义、数据处理、经验生成与调用脚本
-  - `quickstart.sh`：一键运行示例脚本（下载模型、构建向量库等）
+---
 
-- **`experiment/api-bank/`**：API-Bank 基准上的工具记忆与 ExpG 实验
-  - `apis/`：工具接口定义
-  - `API-Bank/`：官方 API-Bank 数据与配置
-  - `tool_memory.py` / `tool_manager.py`：工具调用记录与经验池管理
-  - `evaluator.py`：API-Bank 评测逻辑与指标计算
+### 仓库结构
 
-- **`experiment/gorilla/`**：基于 Gorilla/BFCL 框架的实验
-  - `berkeley-function-call-leaderboard/`：BFCL-V3 相关代码与数据
-  - `.../bfcl_eval/tool_memory.py`：BFCL 任务下的工具经验建模
-  - `.../bfcl_eval/model_handler/`：不同基座模型的推理封装
-
-- **`paper/`**：论文 LaTeX 源码与图表
-  - `example_paper.tex`：主论文源文件
-  - `latex/figures/`：所有论文中使用的图片资源
-
-- **根目录其它文件**
-  - `pyproject.toml`：Python 包配置（项目名 `reme_ai`）
-  - `LICENSE`：开源协议（Apache 2.0）
+- **`reme_ai/`**：ExpG 使用的工具记忆与经验池实现
+  - `summary/tool/`：经验获取与蒸馏（多维评估、过滤、基于等价类的选择、指导总结）；
+  - `retrieve/tool/`：经验复用（根据当前工具调用上下文检索指导）；
+  - `vector_store/`：经验的存储与索引后端；
+  - `agent/`：将指导注入智能体的工具调用流程；
+  - `service/` 与 `config/`：实验中使用的服务封装与默认配置。
+- **`experiment/MetaTool/`**：MetaTool 实验（工具选择）
+  - `src/`：任务定义、数据处理、经验生成与使用；
+  - `quickstart.sh`：端到端运行示例脚本。
+- **`experiment/api-bank/`**：API-Bank 实验（工具调用）
+  - `apis/` 与 `API-Bank/`：工具定义与官方数据；
+  - `tool_memory.py` / `tool_manager.py`：工具调用记录与经验池管理；
+  - `evaluator.py`：评测逻辑与指标计算。
+- **`experiment/gorilla/`**：BFCL-V3 实验（响应生成与多轮任务）
+  - `berkeley-function-call-leaderboard/bfcl_eval/tool_memory.py`：BFCL 任务下的工具经验建模；
+  - `berkeley-function-call-leaderboard/bfcl_eval/model_handler/`：不同基座模型的推理封装。
+- **`experiment/0_draw_and_analysis/`**：结果汇总、分数分布分析与绘图脚本。
+- **`paper/`**：论文源码（`example_paper.tex`）与图片（`latex/figures/`）。
 
 ---
 
 ### 环境与安装
 
-- **Python 版本**：推荐使用 **Python 3.12+**（与 `pyproject.toml` 中保持一致）
-- 建议使用 conda 或 venv 创建独立环境，例如：
+- **Python**：3.12+（见 `pyproject.toml`）
 
 ```bash
 conda create -n expg python=3.12
 conda activate expg
-```
-
-在仓库根目录执行安装：
-
-```bash
 pip install --upgrade pip
 pip install -e .
 ```
 
-`pyproject.toml` 中的核心依赖为：
+核心依赖：`flowllm[reme]>=0.1.11.6`（LLM、Embedding 与向量库后端）。
 
-- `flowllm[reme]>=0.1.11.6`：底层 LLM / embedding / 向量库适配层
-
-部分实验脚本（例如 MetaTool）还提供了各自的 `requirements.txt`：
+各实验子项目（如 MetaTool）还需安装各自的依赖：
 
 ```bash
 cd experiment/MetaTool
 pip install -r requirements.txt
 ```
 
----
+#### LLM 与向量库配置
 
-### ExpG 机制概览
+配置方式与 ReMe 保持一致：
 
-根据论文 `example_paper.tex`，ExpG 将工具调用视为“可学习经验”，并通过三阶段流水线完成经验的获取、提炼与复用：
+```bash
+export FLOW_LLM_API_KEY=sk-xxxx
+export FLOW_LLM_BASE_URL=https://xxxx/v1
+export FLOW_EMBEDDING_API_KEY=sk-xxxx
+export FLOW_EMBEDDING_BASE_URL=https://xxxx/v1
+```
 
-1. **经验获取（Experience Acquisition）**
-   - 从历史工具调用轨迹中分析调用质量（成功/失败、代价、时间等）；
-   - 针对不同工具构建结构化的经验单元，记录调用上下文、参数模式和结果。
-
-2. **经验蒸馏（Experience Distillation）**
-   - 过滤无效 / 噪声经验，保留具有代表性的调用模式；
-   - 基于“等价类”视角对经验进行聚合，覆盖常见模式与稀有失败模式；
-   - 使用 LLM 对经验进行总结，形成 **可泛化的文本化指导（guidance）**。
-
-3. **经验复用（Experience Reuse）**
-   - 在未来任务中，根据当前工具调用上下文检索相关经验 / 指导；
-   - 将经验引导融入到工具选择、参数生成和响应整理等环节；
-   - 使得代理在面对动态环境和不完美反馈时仍能保持稳定表现。
+更多选项见 `reme_ai/config/default.yaml`。论文中 $\mathrm{LLM}_{\mathrm{evaluator}}$ 与 $\mathrm{LLM}_{\mathrm{summarizer}}$ 均使用 Qwen3-max，轨迹采样温度为 0.5。
 
 ---
 
-### 引用与许可证
+### 外部基准与数据集
 
-在实验部分，本仓库复用了多个由他人公开发布的基准与数据集（如 MetaTool、API-Bank、BFCL-V3 等），并基于其官方/开源实现进行二次实验开发。相应的数据与代码版权均归原作者所有，如你在自己的工作中使用到这些基准或通过本仓库间接使用这些数据，请一并引用原始基准论文（英文版 README 中给出了示例 BibTeX）。
+本仓库复用了已有工作发布的公开基准。如使用本代码运行这些基准，请同时引用原始论文：
 
-引用方式与英文版相同，详见 `README.md` 中 “External Benchmarks & Datasets” 和 “Citation” 两个小节。  
-本项目在 **Apache License 2.0** 协议下发布，详细内容见仓库中的 `LICENSE` 文件。
+- **MetaTool**（`experiment/MetaTool/`）：选取最常用的 100 个工具，每个工具在每种子任务设置下最多采样 10 个任务，共 1,669 个任务，采用留一交叉验证。
+- **API-Bank**（`experiment/api-bank/`）：使用完整的 Level-1 数据，共 399 个任务，采用留一交叉验证。
+- **BFCL-V3**（`experiment/gorilla/berkeley-function-call-leaderboard/`）：过滤掉工具不会被复用的任务，保留 461 个测试任务和 1,542 个训练任务。
+
+```bibtex
+@inproceedings{metatool,
+  title     = {MetaTool Benchmark for Large Language Models: Deciding Whether to Use Tools and Which to Use},
+  author    = {Yue Huang and Jiawen Shi and Yuan Li and Chenrui Fan and Siyuan Wu and Qihui Zhang and Yixin Liu and Pan Zhou and Yao Wan and Neil Zhenqiang Gong and Lichao Sun},
+  booktitle = {The Twelfth International Conference on Learning Representations (ICLR)},
+  year      = {2024},
+}
+
+@inproceedings{apibank,
+  title     = {API-Bank: A Comprehensive Benchmark for Tool-Augmented LLMs},
+  author    = {Minghao Li and Feifan Song and Yu Bowen and Haiyang Yu and Zhoujun Li and Fei Huang and Yongbin Li},
+  booktitle = {Conference on Empirical Methods in Natural Language Processing},
+  year      = {2023},
+}
+
+@inproceedings{patilberkeley,
+  title     = {The Berkeley Function Calling Leaderboard (BFCL): From Tool Use to Agentic Evaluation of Large Language Models},
+  author    = {Patil, Shishir G and Mao, Huanzhi and Yan, Fanjia and Ji, Charlie Cheng-Jie and Suresh, Vishnu and Stoica, Ion and Gonzalez, Joseph E},
+  booktitle = {Forty-second International Conference on Machine Learning (ICML)},
+  year      = {2025},
+}
+```
+
+---
+
+### 引用
+
+```bibtex
+@article{ExpG2026,
+  title   = {Constructing Experience-Driven Adaptive Guidance for Continually Improving Tool Use in Agent Harnesses},
+  author  = {Anonymous Authors},
+  journal = {Under review},
+  year    = {2026},
+}
+```
+
+由于本项目复用了 ReMe 的记忆系统，也建议引用：
+
+```bibtex
+@software{ReMe2026,
+  title = {Remember me, Refine me: Memory Management Kit for Agents},
+  author = {ReMe Team},
+  url = {https://reme.agentscope.io},
+  year = {2026}
+}
+```
+
+---
+
+### 许可证
+
+本项目基于 **Apache License 2.0** 发布，完整条款见 `LICENSE`。

@@ -1,6 +1,6 @@
 Table 3. All numbers are Pass@1 on BFCL-V3 with Qwen3-8B, with each row using exactly one replacement (no combinations).
 
-|Stage|Variant|Accuracy|Reduction vs Original |
+|Phase|Variant|Accuracy|Reduction vs Original |
 |------------------------|---------------------------------------------------------------------------------------------------|---------------------------------------------|------------------------|
 |Original ExpG|-|67.46%|0.00%|
 |Experience Acquisition |Directly use full trajectories (no experiences)|60.08% (sometimes hits context-length limits)|-7.38% |
